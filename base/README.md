@@ -12,7 +12,7 @@ Esta pasta contém a geometria oficial usada pelo Configurador KARV.
 ## Requisitos do GLB
 
 - 11 objetos com os nomes canônicos definidos no manifesto.
-- 11 materiais preservados, um para cada peça.
+- Materiais atribuídos conforme o manifesto; os dois vivos compartilham `VIVO`.
 - UV principal preservada em `TEXCOORD_0`.
 - Tamanho inferior a 100 MB.
 

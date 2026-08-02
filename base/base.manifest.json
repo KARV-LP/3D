@@ -1,9 +1,9 @@
 {
   "schema": "karv.base.manifest/1",
   "geometry_version": 1,
-  "generated_at": "2026-08-02T09:03:43-03:00",
+  "generated_at": "2026-08-02T10:48:28-03:00",
   "blend_file": "KV_3D_CLAUDE.blend",
-  "source_collection": "Original",
+  "source_collection": "Scene Collection",
   "uv_set": "UVMap",
   "part_count": 11,
   "parts": [
@@ -11,7 +11,7 @@
       "canonical": "ASSENTO",
       "object": "ASSENTO",
       "materials": [
-        "01-KV-ASSENTO"
+        "assento"
       ],
       "uv_map": "UVMap",
       "vertices": 3656,
@@ -21,7 +21,7 @@
       "canonical": "ENCOSTO_FRONTAL",
       "object": "ENCOSTO_FRONTAL",
       "materials": [
-        "02-KV-ENCOSTO FRT"
+        "encosto-frt"
       ],
       "uv_map": "UVMap",
       "vertices": 2016,
@@ -31,7 +31,7 @@
       "canonical": "ENCOSTO_LATERAL",
       "object": "ENCOSTO_LATERAL",
       "materials": [
-        "Material.010"
+        "encosto lat"
       ],
       "uv_map": "UVMap",
       "vertices": 1978,
@@ -41,7 +41,7 @@
       "canonical": "ENCOSTO_TRASEIRO",
       "object": "ENCOSTO_TRASEIRO",
       "materials": [
-        "Material.011"
+        "encosto traseiro"
       ],
       "uv_map": "UVMap",
       "vertices": 3636,
@@ -51,7 +51,7 @@
       "canonical": "LATERAL_EXTERNA",
       "object": "LATERAL_EXTERNA",
       "materials": [
-        "03-KV-LAT EXT"
+        "lat ext"
       ],
       "uv_map": "UVMap",
       "vertices": 21322,
@@ -61,7 +61,7 @@
       "canonical": "LATERAL_INTERNA",
       "object": "LATERAL_INTERNA",
       "materials": [
-        "Material.009"
+        "lat int"
       ],
       "uv_map": "UVMap",
       "vertices": 21758,
@@ -71,7 +71,7 @@
       "canonical": "LATERAL_REAR",
       "object": "LATERAL_REAR",
       "materials": [
-        "Material.012"
+        "lat rr"
       ],
       "uv_map": "UVMap",
       "vertices": 1534,
@@ -81,7 +81,7 @@
       "canonical": "LATERAL_TOP",
       "object": "LATERAL_TOP",
       "materials": [
-        "Material.008"
+        "Material.012"
       ],
       "uv_map": "UVMap",
       "vertices": 8698,
@@ -91,7 +91,7 @@
       "canonical": "PEZINHOS",
       "object": "PEZINHOS",
       "materials": [
-        "Wood Black.001"
+        "pezinhos"
       ],
       "uv_map": "UVMap",
       "vertices": 148134,
@@ -101,7 +101,7 @@
       "canonical": "VIVO_ASSENTO",
       "object": "VIVO_ASSENTO",
       "materials": [
-        "Material.014"
+        "VIVO"
       ],
       "uv_map": "UVMap",
       "vertices": 1164,
@@ -111,7 +111,7 @@
       "canonical": "VIVO_ENCOSTO",
       "object": "VIVO_ENCOSTO",
       "materials": [
-        "Material.013"
+        "VIVO"
       ],
       "uv_map": "UVMap",
       "vertices": 2172,
@@ -122,7 +122,12 @@
   "glb": {
     "file": "base.glb",
     "storage": "git",
-    "status": "awaiting_material_export"
+    "size_bytes": 798084,
+    "sha256": "fe8f015c17949598b2d22363097e03738253bf9199f6a2eaf2409484d0e06238",
+    "extensions_required": [
+      "KHR_draco_mesh_compression"
+    ],
+    "status": "ready"
   },
   "uv_templates": {
     "resolution": 4096,
