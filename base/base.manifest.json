@@ -1,0 +1,148 @@
+{
+  "schema": "karv.base.manifest/1",
+  "geometry_version": 1,
+  "generated_at": "2026-08-02T09:03:43-03:00",
+  "blend_file": "KV_3D_CLAUDE.blend",
+  "source_collection": "Original",
+  "uv_set": "UVMap",
+  "part_count": 11,
+  "parts": [
+    {
+      "canonical": "ASSENTO",
+      "object": "ASSENTO",
+      "materials": [
+        "01-KV-ASSENTO"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 3656,
+      "faces": 4578
+    },
+    {
+      "canonical": "ENCOSTO_FRONTAL",
+      "object": "ENCOSTO_FRONTAL",
+      "materials": [
+        "02-KV-ENCOSTO FRT"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 2016,
+      "faces": 2879
+    },
+    {
+      "canonical": "ENCOSTO_LATERAL",
+      "object": "ENCOSTO_LATERAL",
+      "materials": [
+        "Material.010"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 1978,
+      "faces": 1978
+    },
+    {
+      "canonical": "ENCOSTO_TRASEIRO",
+      "object": "ENCOSTO_TRASEIRO",
+      "materials": [
+        "Material.011"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 3636,
+      "faces": 4417
+    },
+    {
+      "canonical": "LATERAL_EXTERNA",
+      "object": "LATERAL_EXTERNA",
+      "materials": [
+        "03-KV-LAT EXT"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 21322,
+      "faces": 20952
+    },
+    {
+      "canonical": "LATERAL_INTERNA",
+      "object": "LATERAL_INTERNA",
+      "materials": [
+        "Material.009"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 21758,
+      "faces": 21344
+    },
+    {
+      "canonical": "LATERAL_REAR",
+      "object": "LATERAL_REAR",
+      "materials": [
+        "Material.012"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 1534,
+      "faces": 1440
+    },
+    {
+      "canonical": "LATERAL_TOP",
+      "object": "LATERAL_TOP",
+      "materials": [
+        "Material.008"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 8698,
+      "faces": 8378
+    },
+    {
+      "canonical": "PEZINHOS",
+      "object": "PEZINHOS",
+      "materials": [
+        "Wood Black.001"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 148134,
+      "faces": 271962
+    },
+    {
+      "canonical": "VIVO_ASSENTO",
+      "object": "VIVO_ASSENTO",
+      "materials": [
+        "Material.014"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 1164,
+      "faces": 1164
+    },
+    {
+      "canonical": "VIVO_ENCOSTO",
+      "object": "VIVO_ENCOSTO",
+      "materials": [
+        "Material.013"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 2172,
+      "faces": 2172
+    }
+  ],
+  "geometry_hash": "sha256:279bd576ecfa4eee95a4172ceb664b4a4e5e9a2812267d1add00069b17b470fd",
+  "glb": {
+    "file": "base.glb",
+    "status": "pending"
+  },
+  "uv_templates": {
+    "resolution": 4096,
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "path": "uv-templates/",
+    "status": "pending"
+  },
+  "designer_kit": {
+    "version": 1,
+    "layers": [
+      "uv_layout",
+      "safe_area",
+      "bleed",
+      "center_line",
+      "registration_marks"
+    ],
+    "margins_unit": "percent",
+    "path": "designer-kit/",
+    "status": "pending"
+  }
+}
