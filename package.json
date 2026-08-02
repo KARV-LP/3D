@@ -1,0 +1,14 @@
+{
+  "name": "karv-ar-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "node tests/validate-ar.mjs",
+    "build": "node scripts/build-static.mjs"
+  },
+  "devDependencies": {
+    "vite": "8.2.0"
+  }
+}
