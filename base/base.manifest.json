@@ -121,7 +121,10 @@
   "geometry_hash": "sha256:279bd576ecfa4eee95a4172ceb664b4a4e5e9a2812267d1add00069b17b470fd",
   "glb": {
     "file": "base.glb",
-    "status": "pending"
+    "storage": "git-lfs",
+    "size_bytes": 232600444,
+    "sha256": "011680faf300d4e5f733b558a80e86767d98eaf3e7de1dbb9263a63dce8b2690",
+    "status": "pending_upload"
   },
   "uv_templates": {
     "resolution": 4096,
