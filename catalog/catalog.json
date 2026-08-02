@@ -1,0 +1,4286 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "karv-wiler-mvp",
+  "title": "Biblioteca KARV — Wiler MVP",
+  "generated_at": "2026-08-02T16:39:47.627247+00:00",
+  "supplier": {
+    "name": "Wiler",
+    "catalog_url": "https://www.wiler.com.br/tecidos-para-sofa"
+  },
+  "usage": {
+    "scope": "catalog-prototype-only",
+    "production_ready": false,
+    "remote_hotlinking": false,
+    "warning": "Imagens de referência sem escala física validada e sem mapas PBR. Não usar como material técnico definitivo."
+  },
+  "summary": {
+    "collections": 33,
+    "samples": 130,
+    "requested_per_collection": 4
+  },
+  "collections": [
+    {
+      "id": "origens",
+      "name": "Origens",
+      "type": "supplier-collection",
+      "supplier_product_count": 48,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-51216",
+          "name": "Tecido para Sofá e Estofado Origens 32 Rústico Palha Azul e Bege - Largura 1,40m",
+          "sku": "ORIG-32",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-32-rustico-palha-azul-e-bege-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-origens-32-rustico-palha-azul-bege/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220372/TecidoparaSofaOrigens-Origens32-1.jpg?v=639129173040570000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "75d084e26f1feb741e8e4b25b5336aa9d05a0c0ebb898f3fb7b44403435eba39",
+            "selection_score": 77.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 65048,
+            "sha256": "fb1a22de2b273b8b7bbbd42f708e099aba0d6f77948da7ebfe7b76e3cfe3c74f"
+          }
+        },
+        {
+          "id": "wiler-51221",
+          "name": "Tecido para Sofá e Estofado Origens 33 Rústico Bouclê Listrado Azul e Cru- Largura 1,40m",
+          "sku": "ORIG-33",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-33-rustico-boucle-listrado-azul-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-origens-33-rustico-listado-azul/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219831/TecidoparaSofaOrigens-Origens33-1.jpg?v=639125469098070000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "753c20a1f51f7a9b6489678c5ccf7e2347a25ffc538cad107a18f7664267aa2e",
+            "selection_score": 77.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 44166,
+            "sha256": "a40ffefebafca4d706cf5a7307de72683ed0924a10341096db8146be3d82f9bb"
+          }
+        },
+        {
+          "id": "wiler-51223",
+          "name": "Tecido para Sofá e Estofado Origens 48 Rústico Bouclê Listrado Preto e Cru - Largura 1,40m",
+          "sku": "ORIG-48",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-48-rustico-boucle-listrado-preto-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-origens-48-rustico-listado-preto/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220360/TecidoparaSofaOrigens-Origens48-1.jpg?v=639129170563500000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "bb77f9096afa413e0c6db82549d71718f8461bca51c9745b1703e74817a5795b",
+            "selection_score": 77.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 51210,
+            "sha256": "e5f2c0a4872445c0fd7bc463763b36120f052e5f5190db0c4cca7508524a24fc"
+          }
+        },
+        {
+          "id": "wiler-51244",
+          "name": "Tecido para Sofá e Estofado Origens 14 Chenille Geométrico Círculo Fendi - Largura 1,40m",
+          "sku": "ORIG-14",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-14-chenille-geometrico-circulo-fendi-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-origens-14-chenille-geo-circulo-fendi/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220324/TecidoparaSofaOrigens-Origens14-1.jpg?v=639129162675500000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "60c35c8973a13eb093d83df0b4b7e5e8d990c50daefb2749df0ab350e288d967",
+            "selection_score": 77.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 39054,
+            "sha256": "4ad0f4c87eaa0d9c5f0f7c6114be0aefcde02358c02af5006a40117b971d24d5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trieste",
+      "name": "Trieste",
+      "type": "supplier-collection",
+      "supplier_product_count": 40,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-54626",
+          "name": "Tecido Impermeabilizado Para Sofá e Estofado Trieste 22 Listrado Marrom e Cru - Largura 1,40m",
+          "sku": "TRIE-22",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-22-listrado-marrom-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-trieste-22-list-marrron-cru-fend--whaterproof-/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224139/TecidoparaSofaTrieste-Trieste22-1.jpg?v=639149047885930000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "cbb2bc26710f50ee75cad17dbe4253d42cb531a41f5f8b8c130d9bc650eaa1c0",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 19758,
+            "sha256": "0d420b4584acb9d95f7d5cc593914fe156c2af9272fa78717090621db039eb21"
+          }
+        },
+        {
+          "id": "wiler-54682",
+          "name": "Tecido Impermeabilizado Para Sofá e Estofado Trieste 32 Listrado Cinza e Mostarda - Largura 1,40m",
+          "sku": "TRIE-32",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-32-listrado-cinza-e-mostarda-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-trieste-32-list-cru-most-cinz--whaterproof-/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/227897/TecidoparaSofaTrieste-Trieste32-1.jpg?v=639159088908400000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "75eef1e2130c0989f9bee2c65318c25dd6e104bc2abae21019dbc79e064e1c47",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 22908,
+            "sha256": "015a5ade563535786222c5962d1d7f25fbb99eae950933d1badc1990ad400b7d"
+          }
+        },
+        {
+          "id": "wiler-54622",
+          "name": "Tecido Impermeabilizado Para Sofá e Estofado Trieste 18 Floral Terracota e Verde - Largura 1,40m",
+          "sku": "TRIE-18",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-18-floral-terracota-e-verde-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-trieste-18-floral-terracota-verde--whaterproof-/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224122/TecidoparaSofaTrieste-Trieste18-1.jpg?v=639149042459000000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "f047d8fff7c2d5ca6302e24bbd71ac49056222866624de24659854b99b04f344",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 59776,
+            "sha256": "af6966a7689f849f9a20d4ecfc5ad6697716daf90e75aba4435a599c961a76a5"
+          }
+        },
+        {
+          "id": "wiler-54688",
+          "name": "Tecido Impermeabilizado Para Sofá e Estofado Trieste 38 Geométrico Preto e Bege - Largura 1,40m",
+          "sku": "TRIE-38",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-38-geometrico-preto-e-bege-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-trieste-38-abstrado-geo-pto-cinz--whaterproof-/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228314/TecidoparaSofaTrieste-Trieste38-1.jpg?v=639159160765630000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "5b7520be900c7f951220e430f1b99d0c29a5bac0c373fcff9076fb19077f1b15",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 60788,
+            "sha256": "8eb27d2eaa6cafc94d572945a2981ba672056b315828d97d8b7e29018f9327f1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "acqua-summer",
+      "name": "Acqua Summer",
+      "type": "supplier-collection",
+      "supplier_product_count": 48,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-54704",
+          "name": "Tecido Para Sofá e Estofado Área Externa Acqua Summer 519 Geométrico Coral e Cru - Largura 1,40m",
+          "sku": "AC-519",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/acqua-summer/tecido-para-sofa-e-estofado-area-externa-acqua-summer-519-geometrico-coral-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acqua-summer-519-geometrioc-coral-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/223602/acquasummer19-1.jpg?v=639144505340430000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "9c0129878c0b85b32c64196d9dc98b49505d045593b90be5e51fdf2a8ad97278",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 37116,
+            "sha256": "dbe7482f66b053063e51fabdf81c5c686cb886c77ebb69864b32e00c33364fd8"
+          }
+        },
+        {
+          "id": "wiler-54712",
+          "name": "Tecido Para Sofá e Estofado Área Externa Acqua Summer 528 Listrado Tiffany e Cru - Largura 1,40m",
+          "sku": "AC-528",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/acqua-summer/tecido-para-sofa-e-estofado-area-externa-acqua-summer-528-listrado-tiffany-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acqua-summer-528-listado-tifanny-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/223588/acquasummer28-1.jpg?v=639144504463130000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "38f21f0afaa5fa72dac058613e0f4e1f11e01dc2edbb327a2dde4d1df8b46101",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 12380,
+            "sha256": "06fbe4f057e138ddf756e6cf65c15f4755fdd7f3d7b3d4656e53a4cdfae18053"
+          }
+        },
+        {
+          "id": "wiler-54727",
+          "name": "Tecido Para Sofá e Estofado Área Externa Acqua Summer 548 Bambu Marrom e Cru - Largura 1,40m",
+          "sku": "AC-548",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/acqua-summer/tecido-para-sofa-e-estofado-area-externa-acqua-summer-548-bambu-marrom-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acqua-summer-548-bambu-marrom-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/223558/acquasummer48-1.jpg?v=639144503112500000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "dc8f8b2409498cf445b8d8ac0db97188c89f1027e38f4f2386abe39a2778a770",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 45058,
+            "sha256": "fbb21a733a036f5d3d6fb2b23b572477e45ea229e4cb7a6929754ec4bfb1eb3b"
+          }
+        },
+        {
+          "id": "wiler-54726",
+          "name": "Tecido Para Sofá e Estofado Área Externa Acqua Summer 547 Ramos Marrom e Cru - Largura 1,40m",
+          "sku": "AC-547",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/acqua-summer/tecido-para-sofa-e-estofado-area-externa-acqua-summer-547-ramos-marrom-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acqua-summer-547-ramos-costela-bege-marrom-ciz/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/223560/acquasummer47-1.jpg?v=639144503216700000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "c4c634cec49d4d49b044d663abdb9aa786a7a5279459e8d275d0cce34dba1f57",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 35604,
+            "sha256": "16dc58ce6f1e09bc88706bb3003a9df99b13f627a650ec0dfa9cfd2cbb10806b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "acquablock",
+      "name": "AcquaBlock",
+      "type": "supplier-collection",
+      "supplier_product_count": 93,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-53770",
+          "name": "Tecido Impermeável Para Sofá e Estofado Acquablock 316 Listrado Terracota e Cru - 23937/07 - Largura 1,40m",
+          "sku": "ACB-316",
+          "brand": "Karsten",
+          "preview": "catalog/tecidos/acquablock/tecido-impermeavel-para-sofa-e-estofado-acquablock-316-listrado-terracota-e-cru-23937-07-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acquablock-316-listrado-ferrugem-23937-07/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221838/Acquablock316-1.jpg?v=639141963366000000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "1cc3d997d3eaece2d7ceadc0fdde762d686575230e6e102e7effb2deb24aa858",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 7808,
+            "sha256": "627f25b4bbea69eefdda411e2b0e20b1952bdb09d07f96351acec97f92a33a83"
+          }
+        },
+        {
+          "id": "wiler-53772",
+          "name": "Tecido Impermeável Para Sofá e Estofado Acquablock 315 Geométrico Terracota - 24511/01 - Largura 1,40m",
+          "sku": "ACB-315",
+          "brand": "Karsten",
+          "preview": "catalog/tecidos/acquablock/tecido-impermeavel-para-sofa-e-estofado-acquablock-315-geometrico-terracota-24511-01-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acquablock-315-geometrico-ferrugem-24511-01/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221844/Acquablock315-1.jpg?v=639141964051500000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "93067e4f80cfa8ba533ef092872747ebab73d0e3e289eafd7cdaa830cd922c30",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 27074,
+            "sha256": "e92ff076da0b553c51324105a9b7680de83ceb7dc34563ff190b92de4aade26b"
+          }
+        },
+        {
+          "id": "wiler-53767",
+          "name": "Tecido Impermeável Para Sofá e Estofado Acquablock 304 Monstera Bege e Verde - 24522/01 - Largura 1,40m",
+          "sku": "ACB-304",
+          "brand": "Karsten",
+          "preview": "catalog/tecidos/acquablock/tecido-impermeavel-para-sofa-e-estofado-acquablock-304-monstera-bege-e-verde-24522-01-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acquablock-304-monstera-bege-24522-01/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221832/Acquablock304-1.jpg?v=639141962872170000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "4790efb5ca9d0539737c2c2f7d0f9b76a12676a6c5ac85b7d79a0f0bd78a805a",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 51122,
+            "sha256": "a286d1da9623adda29fe93012790a3f6f323600dd986b5c0f17f51be8a967ff2"
+          }
+        },
+        {
+          "id": "wiler-53766",
+          "name": "Tecido Impermeável Para Sofá e Estofado Acquablock 337 Monstera Verde - 24522/02 - Largura 1,40m",
+          "sku": "ACB-337",
+          "brand": "Karsten",
+          "preview": "catalog/tecidos/acquablock/tecido-impermeavel-para-sofa-e-estofado-acquablock-337-monstera-verde-24522-02-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-acquablock-337-monstera-ferrugem-24522-02/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221830/Acquablock337-1.jpg?v=639141962757100000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "9e0b3b47c4339e4626af408c43d414c36d7f630f85216fc73e797367d45ca464",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 72412,
+            "sha256": "6fc02a8b43e17f014f2886235bafaa248ad155c1860d89e319e161d335206c60"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bristol",
+      "name": "Bristol",
+      "type": "supplier-collection",
+      "supplier_product_count": 4,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-36410",
+          "name": "Tecido Para Sofá e Estofado Bruna 01 Rústico Viscose Branco - Largura 1,40m",
+          "sku": "BRU-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bristol/tecido-para-sofa-e-estofado-bruna-01-rustico-viscose-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-bruna-01-rustico-viscose-branco/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/185930/Tecidos-para-sofa-e-estofado-bristol-Bruna_01_Render_04.jpg?v=637191093288530000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "dac60e2ab482b4d8d18deb4bc2a2cde23fae965252a2e87fd12126fad4d4ae3c",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 48920,
+            "sha256": "d1030867bce3b0d043c7b554f04a0074a8f8cd3f5b1a61076b293cf3240aa472"
+          }
+        },
+        {
+          "id": "wiler-36445",
+          "name": "Tecido Para Sofá e Estofado Marcia 02 Rústico Algodão Mesclado Fendi - Largura 1,40m",
+          "sku": "MRC-02",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bristol/tecido-para-sofa-e-estofado-marcia-02-rustico-algodao-mesclado-fendi-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-marcia-02--rustico-algodao-mescl-rat-fend/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/229769/Tecidos-para-sofa-e-estofado-bristol-Marcia_02_Render_04.jpg?v=639199048325300000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "e17145217c52667990934eb4b031a53fb99730882ea74a86e66fd8d34b5e2648",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 74162,
+            "sha256": "5109232906aec18bd74c7b878276aeaee29b0dcf653be81b729ba7ffd24cf506"
+          }
+        },
+        {
+          "id": "wiler-36442",
+          "name": "Tecido Para Sofá e Estofado Nina 03 Rústico Viscose Mesclado Bege e Branco - Largura 1,40m",
+          "sku": "NIN-03",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bristol/tecido-para-sofa-e-estofado-nina-03-rustico-viscose-mesclado-bege-e-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-nina-03-rustico-viscose-mesclabg-bco/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/229773/Tecidos-para-sofa-e-estofado-bristol-Nina_03_Render_04-min.jpg?v=639199048642500000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "441c6ebf58f73005eb1c69432b2205eac81755aa1775e8cf88278f9f09c5bc5e",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 79504,
+            "sha256": "2fcfce7475565c88ff30ab8a0dc814c802ce60292a84a74742d065a7626589d3"
+          }
+        },
+        {
+          "id": "wiler-36432",
+          "name": "Tecido Para Sofá e Estofado Mariana 06 Rústico Algodão Mesclado Fendi e Caqui - Largura 1,40m",
+          "sku": "MRN-06",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bristol/tecido-para-sofa-e-estofado-mariana-06-rustico-algodao-mesclado-fendi-e-caqui-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-mariana-06-rustico-algodao-mescla-fen-caqui/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/229775/Tecidos-para-sofa-e-estofado-bristol-Mariana_06_Render_04-min.jpg?v=639199048891800000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "982fdc87675602b07c49b1461e8661f89b15420a03ddf4736314bf1e76d74d17",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 94958,
+            "sha256": "56eaef5daa3cc7a3e09d1f5de8195070b810a9ed3d9cad98730555c427013e63"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pelucia",
+      "name": "Pelúcia",
+      "type": "supplier-collection",
+      "supplier_product_count": 24,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-45930",
+          "name": "Tecido Para Sofá e Estofado Pelúcia Animals 04 - Estampa Vaca - Largura 1,60m",
+          "sku": "ANIM-04",
+          "brand": "Pelican",
+          "preview": "catalog/tecidos/pelucia/tecido-para-sofa-e-estofado-pelucia-animals-04-estampa-vaca-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-pelucia-animals-04---estampa-va/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226454/tecido-para-sofa-estofado-Pelucia-Pelucia-ANI-04-Vaca-00.jpg?v=639155049957430000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "14fcd87480a8fccb21fb7ff04245dcd65481c02cd577a5c00071d6e3aa56333a",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 21582,
+            "sha256": "2527d24ed439ca44a7d03d50ce174b93cda3f4ad0c8d414f6b41434da8b5e8e3"
+          }
+        },
+        {
+          "id": "wiler-45929",
+          "name": "Tecido Para Sofá e Estofado Pelúcia Animals 03 - Estampa Tiger - Largura 1,60m",
+          "sku": "ANIM-03",
+          "brand": "Pelican",
+          "preview": "catalog/tecidos/pelucia/tecido-para-sofa-e-estofado-pelucia-animals-03-estampa-tiger-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-pelucia-animals-03---estampa-ti/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226459/Tecidos-para-sofa-e-estofados-pelucia-colecao-Pelucia-ANI-03-Jaguar-00.jpg?v=639155050380570000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "cd79093042dfcfb138b4e302d1126140507a9042f9418a22466fe188945a4c8f",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 43288,
+            "sha256": "2d0bc78c3433d17cbb224efe09cfb5e634cdd2b4edc01cbb51dab24b4588a728"
+          }
+        },
+        {
+          "id": "wiler-45928",
+          "name": "Tecido Para Sofá e Estofado Pelúcia Animals 02 - Estampa Jaguar - Largura 1,60m",
+          "sku": "ANIM-02",
+          "brand": "Pelican",
+          "preview": "catalog/tecidos/pelucia/tecido-para-sofa-e-estofado-pelucia-animals-02-estampa-jaguar-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-pelucia-animals-02---estampa-ja/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228141/Tecidos-para-sofa-e-estofados-pelucia-colecao-Pelucia-ANI-02-Tiger-00.jpg?v=639159117332300000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "fce03d2c2a7d1a98c1396a6e46f2111d5123e3c8423af74a7b9af599e1d64396",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 45398,
+            "sha256": "ea6e473fa2c28db065d57eeafe8547e3bd39e98461d95af7f75862b250987a21"
+          }
+        },
+        {
+          "id": "wiler-45931",
+          "name": "Tecido Para Sofá e Estofado Pelúcia Animals 05 - Estampa Zebra - Largura 1,60m",
+          "sku": "ANIM-05",
+          "brand": "Pelican",
+          "preview": "catalog/tecidos/pelucia/tecido-para-sofa-e-estofado-pelucia-animals-05-estampa-zebra-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-pelucia-animals-05---estampa-ze/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/203626/tecido-para-sofa-estofado-Pelucia-Pelucia-Ani-05-Zebra-1.jpg?v=637897078887600000",
+          "source_image": {
+            "width": 1500,
+            "height": 844,
+            "sha256": "3c9a6ee10b20cc380137837dab00899611847ffcbe4db8afda127c7a86612ca2",
+            "selection_score": 44.412
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 288,
+            "format": "webp",
+            "bytes": 25310,
+            "sha256": "b78165cd1a0cabbb76c650a65219a9af2eadd584d359880bfe469724ff99e593"
+          }
+        }
+      ]
+    },
+    {
+      "id": "taiti",
+      "name": "Taiti",
+      "type": "supplier-collection",
+      "supplier_product_count": 46,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-38837",
+          "name": "Tecido para Sofá e Estofado Veludo Inca 19 Salmao- Largura 1,40m",
+          "sku": "INC-19",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/taiti/tecido-para-sofa-e-estofado-veludo-inca-19-salmao-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-inca-19-salmao/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220912/tecido-para-sofa-estofado-Veludo-Inca-Liso-IncaLiso-19-02.jpg?v=639141828229900000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "d198cbffdb2578b7c6139884977d6f407733841d274840a295979fc4a5a81a31",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 45624,
+            "sha256": "290dc6e7a17b8328ad83a44bc0e9e6908bc944aa5b65e626efbcfb051de4bc24"
+          }
+        },
+        {
+          "id": "wiler-24751",
+          "name": "Tecido Para Sofá e Estofado Veludo Pavia - 01 Cru- Largura 1,40m",
+          "sku": "PAV-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/taiti/tecido-para-sofa-e-estofado-veludo-pavia-01-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-estofado-importado-pavia---pav--01/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221569/tecido-para-sofa-estofado-Veludo-Pavia-Liso-PaviaLiso-01-02.jpg?v=639141931814470000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "5f5a1824598a70a281c46c760cacc3471646ad7f4d133b633dc4c399243e7023",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 46928,
+            "sha256": "98ca3f83687d60c2ce4757e680e93ce5de9b65417625beb91a086908eaba4238"
+          }
+        },
+        {
+          "id": "wiler-38834",
+          "name": "Tecido para Sofá e Estofado Veludo Inca 16 Castor- Largura 1,40m",
+          "sku": "INC-16",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/taiti/tecido-para-sofa-e-estofado-veludo-inca-16-castor-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-inca-16-castor/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220863/tecido-para-sofa-estofado-Veludo-Inca-Liso-IncaLiso-16-02.jpg?v=639141826335300000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "4859111cd35c7ba9eec9e83648564236d5728a79b743ec81678a05f0b6b965d7",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 62924,
+            "sha256": "d3115348a8f608af77915fbc763c3f4541ef51f04422e5b764186094aa64ce65"
+          }
+        },
+        {
+          "id": "wiler-38831",
+          "name": "Tecido para Sofá e Estofado Veludo Liso Pavia 23 Cinza - Largura 1,40m",
+          "sku": "PAV-23",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/taiti/tecido-para-sofa-e-estofado-veludo-liso-pavia-23-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-liso-pavia-23-cinza/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221691/tecido-para-sofa-estofado-Veludo-Pavia-Liso-PaviaLiso-23-02.jpg?v=639141943572700000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "9144727240d8461a9afe8374b2d37431c71f19c3ce4d711b5682142463fc4d1c",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 52208,
+            "sha256": "15beb3b83834d0bd5c2762434e3189e38801fc5481f5ac343a18c7ea858e7158"
+          }
+        }
+      ]
+    },
+    {
+      "id": "livorno",
+      "name": "Livorno",
+      "type": "supplier-collection",
+      "supplier_product_count": 9,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-40553",
+          "name": "Tecido para Sofá e Estofado Veludo Imperio 02 Bege- Largura 1,40m",
+          "sku": "IPR-02",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/livorno/tecido-para-sofa-e-estofado-veludo-imperio-02-bege-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-imperio-02-bege/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221452/tecido-para-sofa-estofado-Imperio-Imperio-02-02.jpg?v=639141923512530000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "41301e4e86407540593c3375279850522f2bf3494dc2afa42860e9198fb41a41",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 36264,
+            "sha256": "4cd260cc87ac86cf596ad4ad846733e392d3d95ea6ec313e2e3720cab3856bb9"
+          }
+        },
+        {
+          "id": "wiler-40554",
+          "name": "Tecido para Sofá e Estofado Veludo Imperio 03 Caramelo- Largura 1,40m",
+          "sku": "IPR-03",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/livorno/tecido-para-sofa-e-estofado-veludo-imperio-03-caramelo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-imperio-03-caramelo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221457/tecido-para-sofa-estofado-Imperio-Imperio-03-02.jpg?v=639141923803030000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "99243543ccc9ac51e05cf7258b8d07977130fcaa9ed7bef464684a866bd10e9a",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 35238,
+            "sha256": "2c7b87056aa19ac52b16883cdb3e3828de90ff8d11edc90af766cfd91454b4a3"
+          }
+        },
+        {
+          "id": "wiler-40552",
+          "name": "Tecido para Sofá e Estofado Veludo Imperio 01 Cru- Largura 1,40m",
+          "sku": "IPR-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/livorno/tecido-para-sofa-e-estofado-veludo-imperio-01-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-imperio-01-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221410/tecido-para-sofa-estofado-Imperio-Imperio-01-02.jpg?v=639141907198070000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "08cd7b6fbd08c60b58ed4ab818cb0b96e751fec393ec890db923c5e63ccef0e0",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 36764,
+            "sha256": "f43514fee0f4d7df09f1d1dcaa26690127ac2d6f32568a35fd3f8f08277f9f7a"
+          }
+        },
+        {
+          "id": "wiler-40556",
+          "name": "Tecido para Sofá e Estofado Veludo Imperio 05 Chumbo- Largura 1,40m",
+          "sku": "IPR-05",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/livorno/tecido-para-sofa-e-estofado-veludo-imperio-05-chumbo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-imperio-05-chumbo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221440/tecido-para-sofa-estofado-Imperio-Imperio-05-02.jpg?v=639141908545100000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "9c95096c46316e0d10d1bdb062cb50ccdc8751d11de3b00461157600e11d9c2e",
+            "selection_score": 58.414
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 21958,
+            "sha256": "ed72bfa33739b846015ec6928e273769836a07c68486b40b7e1d6142c50de8a9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "type": "supplier-collection",
+      "supplier_product_count": 8,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-40505",
+          "name": "Tecido Para Sofá e Estofado linho Sintético Saturno 01 Creme - Largura 1,40m",
+          "sku": "LSAT-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-01-creme-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-linho-saturno-01-creme/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228544/Tecidos-para-sofa-e-estofados-Saturno-tecido-Linho-Sintetico-Saturno-01-00.jpg?v=639160275172770000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "0bffbcc4764fd07ddf918e4a85fe8104bf7b89203c59e7f3151161a506adf647",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 102902,
+            "sha256": "b83425592f99cb659f87654e79d7c1979cd8079c1f45b368f7654e6e446d633d"
+          }
+        },
+        {
+          "id": "wiler-40965",
+          "name": "Tecido Para Sofá e Estofado Linho Sintético Saturno 06 Chumbo - Largura 1,40m",
+          "sku": "LSAT-06",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-06-chumbo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--linho-saturno-06-chumbo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228539/Tecidos-para-sofa-e-estofados-Saturno-tecido-Linho-Sintetico-Saturno-06-00.jpg?v=639160274722400000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "249f617debbf415a13dee534cf2c627d7ffd037709f0242c9baf9d191f8f0de2",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 86724,
+            "sha256": "cd91c70ba38a665e8db752d079791a71cafdd15c648d25190178f5d4cf260042"
+          }
+        },
+        {
+          "id": "wiler-40508",
+          "name": "Tecido Para Sofá e Estofado linho Sintético Saturno 04 Tabaco - Largura 1,40m",
+          "sku": "LSAT-04",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-04-tabaco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-linho-saturno-04-tabaco/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228514/Tecidos-para-sofa-e-estofados-Saturno-tecido-Linho-Sintetico-Saturno-04-00.jpg?v=639160272455100000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "f15aeb01440981a67fd1b4fb55bfd23d38d492431e465efa48445452a14acd97",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 97034,
+            "sha256": "216b5ad0a5b42568c48ec46ab136cd5d8c62e3f1b18a4e4b7432693ca35956e3"
+          }
+        },
+        {
+          "id": "wiler-40509",
+          "name": "Tecido Para Sofá e Estofado linho Sintético Saturno 05 Cinza - Largura 1,40m",
+          "sku": "LSAT-05",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-05-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-linho-saturno-05-cinza/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228519/Tecidos-para-sofa-e-estofados-Saturno-tecido-Linho-Sintetico-Saturno-05-00.jpg?v=639160272961270000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "9ee2e1230910b3d772cb0df28e08f4266a31a404762d0f1e8487ce988df4eae5",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 105386,
+            "sha256": "205ffa4eeb63692590b03c31bf374c85160c94035fd4abf921c6378b22af8d06"
+          }
+        }
+      ]
+    },
+    {
+      "id": "santorine",
+      "name": "Santorine",
+      "type": "supplier-collection",
+      "supplier_product_count": 2,
+      "requested_samples": 4,
+      "selected_samples": 2,
+      "selection_note": "Fornecedor possui somente 2 produtos nesta coleção.",
+      "items": [
+        {
+          "id": "wiler-35324",
+          "name": "Tecido Para Sofá e Estofado Linho Laura 01 Branco Largura 1,40m",
+          "sku": "LAU-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/santorine/tecido-para-sofa-e-estofado-linho-laura-01-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-laura-01-liso-viscose-branco-mescla/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226650/Tecidos-para-sofa-e-estofados-munique-munique-textura-35324.jpg?v=639155684317900000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "25872d9ddc848c382ef7e34b791f82d5fcd865f275c64cf96560a1df7c8cc9a3",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 50388,
+            "sha256": "4945dffc6ce80f722989c8297179ba8f32bde28f949b182305ec455bf4a5d1d3"
+          }
+        },
+        {
+          "id": "wiler-35326",
+          "name": "Tecido Para Sofá e Estofado Linho Laura 03 Bege Largura 1,40m",
+          "sku": "LAU-03",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/santorine/tecido-para-sofa-e-estofado-linho-laura-03-bege-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-laura-03-liso-viscose-bege-mescla/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/230087/tecido-para-sofa-estofado-Santorini-Laura-Laura_03_Render_01.webp?v=639205112413570000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "2ce6df6a004d36eaf8625a95482b9d4346cfc18b5b480ddac33d5129e4571fd7",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 56038,
+            "sha256": "4793932de5104b59c2d7df6012b49644fe672763add44a8ca1bbe01c0569698b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sarja",
+      "name": "Sarja",
+      "type": "supplier-collection",
+      "supplier_product_count": 7,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-12895",
+          "name": "Tecido Para Sofá e Estofado Sarja Peletizada 59 Lisa 11 Oncas Caqui 760  - Largura 1,60m",
+          "sku": "SAR-59",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/sarja/tecido-para-sofa-e-estofado-sarja-peletizada-59-lisa-11-oncas-caqui-760-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-estofado-sarja-sar-59/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222238/Tecidos-para-sofa-e-estofados-Sarja-sarja-peletizada-59-textura.jpg?v=639142146418070000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "8f5ae848de76ed48454b02cf744f3b814898a886651a67ce5cb85ed320abe090",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 38242,
+            "sha256": "d169bec9f27092a45c882a384793c972eac81c2af3ea689cb9ca57232615202f"
+          }
+        },
+        {
+          "id": "wiler-49008",
+          "name": "Tecido Para Sofá e Estofado Sarja Peletizada 85 Lisa 11 Oncas Azul Bebe 5113 - Largura 1,60m",
+          "sku": "SAR-85",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/sarja/tecido-para-sofa-e-estofado-sarja-peletizada-85-lisa-11-oncas-azul-bebe-5113-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-sarja-85-lisa-11-oncas-azul-bebe/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222293/Tecidos-para-sofa-e-estofados-Sarja-sarja-peletizada-85-textura.jpg?v=639142148709130000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "a4e6de3114ff3ca653b760df7b1f130a3edc1040928f607e9ef37416e29f31a6",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 28474,
+            "sha256": "6385d387dd50aad0ff74c8d9a2c89a3a387c37cbd1979fefd9417e437ebddbc9"
+          }
+        },
+        {
+          "id": "wiler-49012",
+          "name": "Tecido Para Sofá e Estofado Sarja Peletizada 89 Lisa 11 Oncas Marrom 7082- Largura 1,60m",
+          "sku": "SAR-89",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/sarja/tecido-para-sofa-e-estofado-sarja-peletizada-89-lisa-11-oncas-marrom-7082-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-sarja-89-lisa-11-oncas-marron-708/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222285/Tecidos-para-sofa-e-estofados-Sarja-sarja-peletizada-89-textura.jpg?v=639142148327100000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "fa7dab2fc4be85280b9ccf4b339520c5f07de9d3ec90c0c43b93746b5ee583f6",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 52470,
+            "sha256": "1fd28368c29dc864428cfec8415e1df953ba24babf81734385c3b5c1163c054e"
+          }
+        },
+        {
+          "id": "wiler-49011",
+          "name": "Tecido Para Sofá e Estofado Sarja Peletizada 88 Lisa 11 Oncas Verde Bandeira 6160 - Largura 1,60m",
+          "sku": "SAR-88",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/sarja/tecido-para-sofa-e-estofado-sarja-peletizada-88-lisa-11-oncas-verde-bandeira-6160-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-sarja-88-lisa-11-oncas-verde-band/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222287/Tecidos-para-sofa-e-estofados-Sarja-sarja-peletizada-88-textura.jpg?v=639142148486270000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "0a51766f27be213dcf604689591a1cf5c53f4e7133b11ee7c5b5d6a4136613e9",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 27728,
+            "sha256": "fc128315d92449cbf77bad90ce63c83e28bbceecc20b76fa9d0c266552b61d1d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tnt",
+      "name": "Tnt",
+      "type": "supplier-collection",
+      "supplier_product_count": 13,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-3961",
+          "name": "Tecido TNT - Gramatura 40 Branco - Largura 1,40m",
+          "sku": "Tnt35",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/tnt/tecido-tnt-gramatura-40-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-tnt-40-branco-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224668/TNT-01-02.jpg?v=639150527085800000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "d9ff46dab24edd0bbd695ec2ab082d5bd1a235578d889a9e1417f4b790c6bd9a",
+            "selection_score": 28.695
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 29164,
+            "sha256": "3bfa36ec64fd0d658e0eddace16c7c790f03f44ed9cfa6f930cbc5349e356029"
+          }
+        },
+        {
+          "id": "wiler-13776",
+          "name": "Tecido TNT - Gramatura 80 Branco - Largura 1,40m",
+          "sku": "TNT80-35",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/tnt/tecido-tnt-gramatura-80-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-tnt---tecido-nao-tecido---tnt80-35/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224663/TNT-01-02.jpg?v=639150525410270000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "d9ff46dab24edd0bbd695ec2ab082d5bd1a235578d889a9e1417f4b790c6bd9a",
+            "selection_score": 28.695
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 28742,
+            "sha256": "5491584a4e217a8f4e1a1db0b989cf57c49c37e5665d3c7f7e3e6021efbcc104"
+          }
+        },
+        {
+          "id": "wiler-790539",
+          "name": "Tecido TNT Gramatura 60 Branco - Largura 1,40m",
+          "sku": "TNT60BCO",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/tnt/tecido-tnt-gramatura-60-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-tnt-60-branco-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/217266/TNT-Branco.webp?v=639014245447300000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "f3748f82b81a84cfce80352c47911d9a4309f5079c58ae6dd9d498193ff739df",
+            "selection_score": 28.481
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 26196,
+            "sha256": "8e299a123b7eeead0762f849cb4faa9ef0078f357dadc64159aa0a3293be61a0"
+          }
+        },
+        {
+          "id": "wiler-13921",
+          "name": "Tecido TNT - Gramatura 80 Bege  - Largura 1,40m",
+          "sku": "TNT80-24",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/tnt/tecido-tnt-gramatura-80-bege-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-tnt---tecido-nao-tecido---tnt80-24/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/159142/TNT-02-02.jpg?v=636259707575370000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "f18d80bb849769444f115a997f04a38aeba981b4b5395c6d525e489bc31d4ff2",
+            "selection_score": 28.14
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 24406,
+            "sha256": "e508ffd98ec143e7b062482d9b7656adeeedc6ad0d6a6e882004a4c48dac4b9c"
+          }
+        }
+      ]
+    },
+    {
+      "id": "valencia",
+      "name": "Valência",
+      "type": "supplier-collection",
+      "supplier_product_count": 45,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-56373",
+          "name": "Tecido Para Sofá e Estofado Valência 125 Xadrez Mini - Azul E Cru - Largura 1,40m",
+          "sku": "VALE-125",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/valencia/tecido-para-sofa-e-estofado-valencia-125-xadrez-mini-azul-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-valencia-125-xadrez-mini-azul-e-cru-1/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219722/TecidoParaSofaValencia-Valencia125-1.jpg?v=639124735848870000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "65dadc89ac666cd3995fe367d7f63bc8649fa1b03bd1d91e1f4b654c4b4e901b",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 51580,
+            "sha256": "395240533ef8321969c43e8e94342877657a5bb7530e21722ee49ffc910e8c19"
+          }
+        },
+        {
+          "id": "wiler-56383",
+          "name": "Tecido Para Sofá e Estofado Valência 138 Listrado - Terracota E Cru - Largura 1,40m",
+          "sku": "VALE-138",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/valencia/tecido-para-sofa-e-estofado-valencia-138-listrado-terracota-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-valencia-138-listrado-terracota-e-cru-1/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219774/TecidoParaSofaValencia-Valencia138-1.jpg?v=639124738117430000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "37aa62534f52bcfed67aa350cc6d31b132efbe289dd0d7e4baf9bea71a55b2ac",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 29282,
+            "sha256": "3f63b3a8a26c692b446a4f886ca6248e9a4d09cb41a68a723cb8787c5c35e119"
+          }
+        },
+        {
+          "id": "wiler-56385",
+          "name": "Tecido Para Sofá e Estofado Valência 107 Xadrez - Bege E Cru - Largura 1,40m",
+          "sku": "VALE-107",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/valencia/tecido-para-sofa-e-estofado-valencia-107-xadrez-bege-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-valencia-107-xadrez-bege-e-cru-1/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219767/TecidoParaSofaValencia-Valencia107-1.jpg?v=639124737922800000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "ef51bdb402a2c4e086f05cc8b454882fb3cb0bebc42f28e4aa64a7fad0cc8cd4",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 61650,
+            "sha256": "86c93a9899cdb86ae39292da84e7cf3e0a80b97706fb16c19b9676d64a2c5d4f"
+          }
+        },
+        {
+          "id": "wiler-56382",
+          "name": "Tecido Para Sofá e Estofado Valência 143 Listrado - Ocre E Cru - Largura 1,40m",
+          "sku": "VALE-143",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/valencia/tecido-para-sofa-e-estofado-valencia-143-listrado-ocre-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-valencia-143-listrado-ocre-e-cru-1/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219795/TecidoParaSofaValencia-Valencia143-1.jpg?v=639124739055970000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "455a59694bff79d0a83b3a39a890f78d5c9ed43c540c460f487fe44023381837",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 27000,
+            "sha256": "9b72e4ad8920cf936468a02148315f034f32422140831e4a7b5d662ac863efce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "promocoes",
+      "name": "Promoções",
+      "type": "commercial-group",
+      "supplier_product_count": 20,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-24751",
+          "name": "Tecido Para Sofá e Estofado Veludo Pavia - 01 Cru- Largura 1,40m",
+          "sku": "PAV-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/promocoes/tecido-para-sofa-e-estofado-veludo-pavia-01-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-estofado-importado-pavia---pav--01/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221569/tecido-para-sofa-estofado-Veludo-Pavia-Liso-PaviaLiso-01-02.jpg?v=639141931814470000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "5f5a1824598a70a281c46c760cacc3471646ad7f4d133b633dc4c399243e7023",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 46928,
+            "sha256": "98ca3f83687d60c2ce4757e680e93ce5de9b65417625beb91a086908eaba4238"
+          }
+        },
+        {
+          "id": "wiler-37720",
+          "name": "Tecido para Sofá e Estofado Veludo Liso Pavia 17 Vinho- Largura 1,40m",
+          "sku": "PAV-17",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/promocoes/tecido-para-sofa-e-estofado-veludo-liso-pavia-17-vinho-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-liso-pavia-17-vinho/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221643/tecido-para-sofa-estofado-Veludo-Pavia-Liso-PaviaLiso-17-02.jpg?v=639141936038000000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "90adde025dc5d8a95afd3cb280680a4b1c2790cc3a19f0154c8856777c6ef2b9",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 24100,
+            "sha256": "1c8305a1eb7322ab2d34e5816b08b75a9b1db8825c00cd32b6dfa7e047389e40"
+          }
+        },
+        {
+          "id": "wiler-37721",
+          "name": "Tecido para Sofá e Estofado Veludo Liso Pavia 18 Verde Militar - Largura 1,40m",
+          "sku": "PAV-18",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/promocoes/tecido-para-sofa-e-estofado-veludo-liso-pavia-18-verde-militar-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa--veludo-liso-pavia-18-verde-milit/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221669/tecido-para-sofa-estofado-Veludo-Pavia-Liso-PaviaLiso-18-02.jpg?v=639141942496730000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "33dba56f5961f5cdf53f8b28b7f2431c2dc579c2bdc106314534fcb03ed7e70e",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 24488,
+            "sha256": "c231d973f9e92804d86207ec1d10bcaade609ef985ad41f8116b7c62181835a9"
+          }
+        },
+        {
+          "id": "wiler-33583",
+          "name": "Tecido Para Sofá e Estofado Veludo Inca Caramelo - 07- Largura 1,40m",
+          "sku": "INC-07",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/promocoes/tecido-para-sofa-e-estofado-veludo-inca-caramelo-07-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-veludo-inca-07-caramelo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220843/tecido-para-sofa-estofado-Veludo-Inca-Liso-IncaLiso-07-02.jpg?v=639141825542070000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "74fcde4ac5e9e66716816d8c0bfccca6ca6023f8e4c1d5434244c34870547509",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 25484,
+            "sha256": "6255572930fe3cb205c23c07901541fb190374131b049ca7652a07cd16e91eb5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monza",
+      "name": "Monza",
+      "type": "supplier-collection",
+      "supplier_product_count": 41,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-43184",
+          "name": "Tecido Para Sofá e Estofado Linho Rústico Monza 38 Bordado Viscose Missou Azul, Branco e Preto - Largura 1,40m",
+          "sku": "Monza-38",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monza/tecido-para-sofa-e-estofado-linho-rustico-monza-38-bordado-viscose-missou-azul-branco-e-preto-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-linho-monza-38-bordado-viscose/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228127/Tecidos-para-sofa-e-estofados-Colecao-Monza-Rusticos-e-Linhos-Monza-Monza-38-00.jpg?v=639159114789900000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "ec6b6a6e181d995d14e455b8f903c611601ba17cf997bc2d73d4c73e695cc734",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 81396,
+            "sha256": "ca3a6a3a527faacb6e6ae2e9efe7c2c1c3a8a056b43f61f6ee51d4062d44002b"
+          }
+        },
+        {
+          "id": "wiler-43179",
+          "name": "Tecido Para Sofá e Estofado Linho Rústico Monza 43 Bordado Viscose Prata - Largura 1,40m",
+          "sku": "Monza-43",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monza/tecido-para-sofa-e-estofado-linho-rustico-monza-43-bordado-viscose-prata-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-linho-monza-43-bordado-viscose/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228586/Tecidos-para-sofa-e-estofados-Colecao-Monza-Rusticos-e-Linhos-Monza-Monza-43-00.jpg?v=639160284370030000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "087bd3cacab0c5d6064d23f39028b37f52b92ed3e8acf4213f9b1d5c828b6d8c",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 76616,
+            "sha256": "8c7566193fd66229c4581db04bcfb9ff23c932b936f789022fb1aa587a8ce6ca"
+          }
+        },
+        {
+          "id": "wiler-43178",
+          "name": "Tecido Para Sofá e Estofado Linho Rústico Monza 45 Bordado Viscose Azul - Largura 1,40m",
+          "sku": "Monza-45",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monza/tecido-para-sofa-e-estofado-linho-rustico-monza-45-bordado-viscose-azul-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-linho-monza-45-bordado-viscose/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228581/Tecidos-para-sofa-e-estofados-Colecao-Monza-Rusticos-e-Linhos-Monza-Monza-45-00.jpg?v=639160284240300000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "838ef78baa0d0ab073587787e1ec10a49095fb1bc7860619891894c7a3a9c366",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 66324,
+            "sha256": "603f98c885398636afab7148508ef2cd79fe2f9d490964230f3963d0e1ce8b87"
+          }
+        },
+        {
+          "id": "wiler-43174",
+          "name": "Tecido Para Sofá e Estofado Linho Rústico Monza 49 Rústico Palha Cinza Natural - Largura 1,40m",
+          "sku": "Monza-49",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monza/tecido-para-sofa-e-estofado-linho-rustico-monza-49-rustico-palha-cinza-natural-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-linho-monza-49-rustico-palha-ci/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228576/Tecidos-para-sofa-e-estofados-Colecao-Monza-Rusticos-e-Linhos-Monza-Monza-49-00.jpg?v=639160282884930000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "2ce543df7bf4078640f564ed2a12dadb4ac3d5c00463aadccf7f22c77d99fdd3",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 87434,
+            "sha256": "9fa579f246a2938d295e39c843da743919c2450c69f36940611e4a7da5356569"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "type": "supplier-collection",
+      "supplier_product_count": 47,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-46935",
+          "name": "Tecido Para Sofá e Estofado Toledo 51 Escama Preto - Largura 1,40m",
+          "sku": "TOL-51",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/toledo/tecido-para-sofa-e-estofado-toledo-51-escama-preto-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-toledo-51-escama-preto-escl/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220425/Tecidos-para-sofa-e-estofados-Colecao-Toledo-toledo-51-textura.jpg?v=639129956230270000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "27ff4ffb297db96f95f8fb478be38225a923bf9e7a06f402352ae3cd065c739d",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 66510,
+            "sha256": "485852be38960d2bd44e4f991417ffa36c38f0a841072c4000dccda5213b6b21"
+          }
+        },
+        {
+          "id": "wiler-46929",
+          "name": "Tecido Para Sofá e Estofado Toledo 22 Linho Sarja Verde- Largura 1,40m",
+          "sku": "TOL-22",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/toledo/tecido-para-sofa-e-estofado-toledo-22-linho-sarja-verde-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-toledo-22-linho-sarja-verde/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220479/Tecidos-para-sofa-e-estofados-Colecao-Toledo-toledo-22-textura.jpg?v=639129959817600000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "f67df91dd76516f2054cc0a345c242e5d2be611033b8b11eaee7520bdfba69d0",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 53016,
+            "sha256": "5ef349a4e26b3012d3a6aee46bdb5b359d44649c3d639d38de647f786ddffa88"
+          }
+        },
+        {
+          "id": "wiler-46910",
+          "name": "Tecido Para Sofá e Estofado Toledo 52 Listrado Cru Preto- Largura 1,40m",
+          "sku": "TOL-52",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/toledo/tecido-para-sofa-e-estofado-toledo-52-listrado-cru-preto-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-toledo-52-listado-cru-preto/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220427/Tecidos-para-sofa-e-estofados-Colecao-Toledo-toledo-52-textura.jpg?v=639129956331600000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "af03bb18c59cb423db60d5de2cb618470b0e992e2fb32e4de4f17804af497dd1",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 68636,
+            "sha256": "9f947b2bb9bc15b20f2baa1bb34b9c382249286b84eb03ba3bde860e1c46fc90"
+          }
+        },
+        {
+          "id": "wiler-46944",
+          "name": "Tecido Para Sofá e Estofado Toledo 43 Chenille Rústico Caqui- Largura 1,40m",
+          "sku": "TOL-43",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/toledo/tecido-para-sofa-e-estofado-toledo-43-chenille-rustico-caqui-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-toledo-43-chenil-rust-caqui/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220433/Tecidos-para-sofa-e-estofados-Colecao-Toledo-toledo-43-textura.jpg?v=639129956539400000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "1c198414217e1dbb0580776dd9d515ce0fc8f16d50a668eb1162521b437868a9",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 86566,
+            "sha256": "e8836ba425893a410d49472b1bd3ef7ac69a2dc09447b9484fd01b3f3b73a9b4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cannes",
+      "name": "Cannes",
+      "type": "supplier-collection",
+      "supplier_product_count": 37,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-46095",
+          "name": "Tecido Para Sofá e Estofado Área Externa Cannes 18 Trice Mesclado Verde Marrom- Largura 1,40m",
+          "sku": "CANN-18",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/cannes/tecido-para-sofa-e-estofado-area-externa-cannes-18-trice-mesclado-verde-marrom-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-area-externa-cannes-18-trice-mesc/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/213970/Tecidos-para-sofa-e-estofados-tecidos-Canes-Area-externa-Cannes-tex-18.jpg?v=639003017971500000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "80c6567125dbffb7966b8794a82202cf32637d7f35b4bc030f534c67855b3574",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 73840,
+            "sha256": "51b33746481202e64bbc878aa0beec8b14032149943fd63ebbb3f27a44eb7d7f"
+          }
+        },
+        {
+          "id": "wiler-46093",
+          "name": "Tecido Para Sofá e Estofado Área Externa Cannes 14 Trice Mesclado Laranja Marrom- Largura 1,40m",
+          "sku": "CANN-14",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/cannes/tecido-para-sofa-e-estofado-area-externa-cannes-14-trice-mesclado-laranja-marrom-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-area-externa-cannes-14-trice-mesc/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224728/Tecidos-para-sofa-e-estofados-tecidos-Canes-Area-externa-Cannes-tex-14.jpg?v=639150741070800000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "763847b427e11c1ad19c36505cfc7063ff92af2c051ea4bc9d3b11ef93ad223a",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 81272,
+            "sha256": "191df87a78f4bf1455e328e3156dae667cd9232abf73a596653fd29f6d1aa6c5"
+          }
+        },
+        {
+          "id": "wiler-46091",
+          "name": "Tecido Para Sofá e Estofado Área Externa Cannes 24 Panama Mesclado Marrom Cinza- Largura 1,40m",
+          "sku": "CANN-24",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/cannes/tecido-para-sofa-e-estofado-area-externa-cannes-24-panama-mesclado-marrom-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-area-externa-cannes-24-panama-mes/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/213990/Tecidos-para-sofa-e-estofados-tecidos-Canes-Area-externa-Cannes-24.jpg?v=638778171576970000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "d752d3168a9974809d0d3e29e97ffc967f6c9194e266731ac761cd41d66fe92b",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 43404,
+            "sha256": "1c8f55219d65bb5a67274eafbf713c8251ce8fdfc7c14b767db02b80bf186e30"
+          }
+        },
+        {
+          "id": "wiler-46094",
+          "name": "Tecido Para Sofá e Estofado Área Externa Cannes 23 Trice Mesca Marinho Cinza- Largura 1,40m",
+          "sku": "CANN-23",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/cannes/tecido-para-sofa-e-estofado-area-externa-cannes-23-trice-mesca-marinho-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-area-externa-cannes-23-trice-mesc/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/213976/Tecidos-para-sofa-e-estofados-tecidos-Canes-Area-externa-Cannes-23.jpg?v=638778171251530000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "2815124e107870c3be1ca48ae5fa13265865086b0a42e0139e3e26b844d7fcdb",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 86382,
+            "sha256": "2f55bd1788064f023d04827b66a9a3ea4954891a24a4e0c754f40d48b366e8ba"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sofisticato",
+      "name": "Sofisticato",
+      "type": "supplier-collection",
+      "supplier_product_count": 45,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-49669",
+          "name": "Tecido Para Sofá e Estofado Boucle Alaska 01 Natural - Largura 1,40m",
+          "sku": "ALAS-01",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-boucle-alaska-01-natural-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-boucle-alaska-01-natural/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222115/Tecidos-para-sofa-e-estofados-Colecao-Alaska-BOUCLE-ALASKA-NATURAL-1.jpg?v=639142112034770000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "0ce2bfee7af8e124d9ebf4b98a25c65411a095b008d480a3694a7812ac29a1ca",
+            "selection_score": 75.359
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 27244,
+            "sha256": "6d19947cefa9f687ec2c2e617365145bf0aada8ed8286fadb4ca1a6fb6755afd"
+          }
+        },
+        {
+          "id": "wiler-49672",
+          "name": "Tecido Para Sofá e Estofado Boucle Alaska 04 Oliva - Largura 1,40m",
+          "sku": "ALAS-04",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-boucle-alaska-04-oliva-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-boucle-alaska-04-oliva/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222108/Tecidos-para-sofa-e-estofados-Colecao-Alaska-BOUCLE-ALASKA-OLIVA-4-TEXTURA.jpg?v=639142111692170000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "1885354f117758d259e4e890ed77696e318e7e2d36e1fd04a6f273aba5edb8e9",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 37610,
+            "sha256": "137e0abf363e5ca07beaf0fbfdc8cb320e6c2ef25d6f2392182515cbbf7092f4"
+          }
+        },
+        {
+          "id": "wiler-49733",
+          "name": "Tecido Para Sofá e Estofado Veludo Sheep 04 Bronze - Largura 1,40m",
+          "sku": "SHE-04",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-veludo-sheep-04-bronze-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-veludo-sheep-04-bronze/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221724/Tecidos-para-sofa-e-estofados-Colecao-Sheep-VELUDO-SHEEP-04-BRONZE-TEXTURA.jpg?v=639141947527630000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "79a5a09e15615fe4ba44515fe4dfc01225e9691782cf812997939a52437b5ce3",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 46660,
+            "sha256": "0acdd1f5840914f84d449daf7e1be0d4c8b02bd2e4cf3e713023ea9214e7a5cf"
+          }
+        },
+        {
+          "id": "wiler-49732",
+          "name": "Tecido Para Sofá e Estofado Veludo Sheep 03 Cinza - Largura 1,40m",
+          "sku": "SHE-03",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-veludo-sheep-03-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-veludo-sheep-03-cinza/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221726/Tecidos-para-sofa-e-estofados-Colecao-Sheep-VELUDO-SHEEP-03-CINZA-TEXTURA.jpg?v=639141948441970000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "e0c384caf20fe311500fd8010f11d81ce74be1f9171d5523d7124bd633b7303e",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 38944,
+            "sha256": "ce74cf60cd0583a46827d23c25bfb7b2925bb7c2c4b1a8a21453d0e719bfc505"
+          }
+        }
+      ]
+    },
+    {
+      "id": "delicate",
+      "name": "Delicate",
+      "type": "supplier-collection",
+      "supplier_product_count": 26,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-49706",
+          "name": "Tecido Para Sofá e Estofado Linho Urano 05 Fendi (Waterproof) - Largura 1,40m",
+          "sku": "URA-05",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/delicate/tecido-para-sofa-e-estofado-linho-urano-05-fendi-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-linho-urano-05-fendi/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224216/Tecidos-para-sofa-e-estofados-Colecao-Urano-linho-urano-05-textura.jpg?v=639149649933800000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "e8d22e41ad27136d947e13226058485cd920ef6e1e05f79c7ba1faf73d58464e",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 50588,
+            "sha256": "33d49513476d1a197fbf10ade74e6b1fc9305d0048624d317329a2df6a4f59e4"
+          }
+        },
+        {
+          "id": "wiler-49708",
+          "name": "Tecido Para Sofá e Estofado Linho Urano 07 Verde (Waterproof) - Largura 1,40m",
+          "sku": "URA-07",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/delicate/tecido-para-sofa-e-estofado-linho-urano-07-verde-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-linho-urano-07-verde/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222541/Tecidos-para-sofa-e-estofados-Colecao-Urano-linho-urano-07-textura-2.jpg?v=639143780299470000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "ddbf5435b6df68e8c275052927ba7a82b291b98ffe99ec0f1f2a82b21011b20b",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 52690,
+            "sha256": "1395e89a115586841af96553586abf9ad54497342c3c5861e31d21cfe6118c14"
+          }
+        },
+        {
+          "id": "wiler-49709",
+          "name": "Tecido Para Sofá e Estofado Linho Urano 08 Azul (Waterproof) - Largura 1,40m",
+          "sku": "URA-08",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/delicate/tecido-para-sofa-e-estofado-linho-urano-08-azul-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-linho-urano-08-azul/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226839/Tecidos-para-sofa-e-estofados-Colecao-Urano-linho-urano-08-textura.jpg?v=639155905777500000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "40e8e5eb5f5e36f627fbfc39b46a3fbdfa5597b9bbfcb4b4040d8e9c47f7338c",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40838,
+            "sha256": "1d460f3d5147bfbb6d0bbddefe515d0e452998b0cbf29caa9a995e2bb2933b2c"
+          }
+        },
+        {
+          "id": "wiler-49707",
+          "name": "Tecido Para Sofá e Estofado Linho Urano 06 Cinza Escuro (Waterproof) - Largura 1,40m",
+          "sku": "URA-06",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/delicate/tecido-para-sofa-e-estofado-linho-urano-06-cinza-escuro-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-linho-urano-06-cinza-escuro/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224194/Tecidos-para-sofa-e-estofados-Colecao-Urano-linho-urano-06-textura.jpg?v=639149063666170000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "0e1279bd8ba6280f029590c1f2803ed56be2bc88d5a6a3e02628352f7290fe8f",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 55928,
+            "sha256": "0d237b97da19b32116c592dedc8272d66aa4eb1ce13ccf2d7660bdb2ecb955e1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "munique",
+      "name": "Munique",
+      "type": "supplier-collection",
+      "supplier_product_count": 27,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-49630",
+          "name": "Tecido Para Sofá e Estofado Munique 10.010-01 Rústico Panama Branco Fendi - largura 1,40m",
+          "sku": "10.010-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/munique/tecido-para-sofa-e-estofado-munique-10-010-01-rustico-panama-branco-fendi-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-munique-10-010-01-rust/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226615/Tecidos-para-sofa-e-estofados-munique-munique-textura-49630.jpg?v=639155670798500000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "193140e06b9a586c9be00cb03daaaa4f3f81b3a80a5a380203cfbdc33289725f",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 47842,
+            "sha256": "92fc678991486cfd70ca5b4997b50db81ff7c5da355a15dfcea62314bd2e93ea"
+          }
+        },
+        {
+          "id": "wiler-49638",
+          "name": "Tecido Para Sofá e Estofado Munique 10.005-03 Missouri Viscose Fendi - largura 1,40m",
+          "sku": "10.005-03",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/munique/tecido-para-sofa-e-estofado-munique-10-005-03-missouri-viscose-fendi-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-munique-10-005-03-miss/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228699/Tecidos-para-sofa-e-estofados-munique-munique-textura-49638.jpg?v=639160896757870000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "317e879016295be8aa938247fa154d7d2067bd6937c5a1b6b276a4c5d0449f61",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 75846,
+            "sha256": "5ea1b206fb4d9143f3631ba235f3ff46976b1f4f7a5bb774924ff6c0e35bb70b"
+          }
+        },
+        {
+          "id": "wiler-49632",
+          "name": "Tecido Para Sofá e Estofado Munique 10.011-01 Rústico Viscose Branco Fendi - largura 1,40m",
+          "sku": "10.011-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/munique/tecido-para-sofa-e-estofado-munique-10-011-01-rustico-viscose-branco-fendi-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-munique-10-011-01-rust/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228697/Tecidos-para-sofa-e-estofados-munique-munique-textura-49632.jpg?v=639160896191730000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "c139777cb98527c88a8f0dbdf78c38cd1bf892f92cff780658b5341df376d5cb",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 66516,
+            "sha256": "6aeaf068343d22f538f0a9029663d9f78db9516f5b3e8d8ae6dfefea6c5162dc"
+          }
+        },
+        {
+          "id": "wiler-49617",
+          "name": "Tecido Para Sofá e Estofado Munique 10.000-01 Panama Trice Mescla Bege Terracota - largura 1,40m",
+          "sku": "10.000-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/munique/tecido-para-sofa-e-estofado-munique-10-000-01-panama-trice-mescla-bege-terracota-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-munique-10-000-01-pana/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228693/Tecidos-para-sofa-e-estofados-munique-textura-49617.jpg?v=639160895319870000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "3aa86580189b70b2fe813e09294e90d2b8046c07286c5b03d4af3658294af073",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 79456,
+            "sha256": "80654a180d3d18f4bad085ed4b686d2452239706cc9043240e2043071998b341"
+          }
+        }
+      ]
+    },
+    {
+      "id": "visage",
+      "name": "Visage",
+      "type": "supplier-collection",
+      "supplier_product_count": 47,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-49400",
+          "name": "Tecido Para Sofá e Estofado Visage 10.025-02 Rústico Ikat Preto Cinza - largura 1,40m",
+          "sku": "10.025-02",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/visage/tecido-para-sofa-e-estofado-visage-10-025-02-rustico-ikat-preto-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-visage-10-025-02-rusti/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228705/Tecidos-para-sofa-e-estofados-visage-visage-10-025-02-textura.jpg?v=639161059203400000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "74c7c3a9f1bf89521eab74e8b09a9cdd2a0812c4e8f2517f80c2ad5f3b8499ac",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 72538,
+            "sha256": "016b793362fc5a7fc4829944f414e58a13b69a4ad5fbf31a1a9a3a66378da4eb"
+          }
+        },
+        {
+          "id": "wiler-49393",
+          "name": "Tecido Para Sofá e Estofado Visage 10.024-01 Jacquard Rústico Bege Cru - largura 1,40m",
+          "sku": "10.024-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/visage/tecido-para-sofa-e-estofado-visage-10-024-01-jacquard-rustico-bege-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-visage-10-024-01-jacqu/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/228041/Tecidos-para-sofa-e-estofados-visage-visage-10-024-01-textura.jpg?v=639159106129600000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "1ab5a69e7a996f7c1a47e06e0d5ae7d6d91a7aab98f342807deef79781d8fb28",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 46948,
+            "sha256": "5f65cd32badb95d02c00ea78512f4a28f826bc7eee0cff854009842a073beb3c"
+          }
+        },
+        {
+          "id": "wiler-49397",
+          "name": "Tecido Para Sofá e Estofado Visage 10.027-01 Linho Rústico Natural - largura 1,40m",
+          "sku": "10.027-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/visage/tecido-para-sofa-e-estofado-visage-10-027-01-linho-rustico-natural-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-visage-10-027-01-linho/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222600/Tecidos-para-sofa-e-estofados-visage-visage-10-027-01-textura.jpg?v=639143784222130000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "40b75d76506e3e62d534e884b98fe277a0a31bdf494dfbf7a46e136f78eee3ed",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 51784,
+            "sha256": "d8cbbb0a09f5fbc6583a06e78d4fbefbbfaf031683ee1346a67944517fad5389"
+          }
+        },
+        {
+          "id": "wiler-49399",
+          "name": "Tecido Para Sofá e Estofado Visage 10.025-01 Rústico Ikat Bege Preto - largura 1,40m",
+          "sku": "10.025-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/visage/tecido-para-sofa-e-estofado-visage-10-025-01-rustico-ikat-bege-preto-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-visage-10-025-01-rusti/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226374/Tecidos-para-sofa-e-estofados-visage-visage-10-025-01-textura.jpg?v=639154833381730000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "29ddba4f203b9b1757ccf05a77e9c55d92e6a934f538425d2bdc9bf57f81ce4a",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 85192,
+            "sha256": "46fc905eeaaae353aaf8f28120a1f0f1e15f0eb0de2a0732c77d42543a6b8f44"
+          }
+        }
+      ]
+    },
+    {
+      "id": "all-colours",
+      "name": "All colours",
+      "type": "supplier-collection",
+      "supplier_product_count": 56,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-50294",
+          "name": "Tecido Para Sofá e Estofado Fusion 19 Waterproof Chenille Gelo - Largura 1,40m",
+          "sku": "FUSION-19",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/all-colours/tecido-para-sofa-e-estofado-fusion-19-waterproof-chenille-gelo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-fusion-19-chenille-gelo-waterproo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224160/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-19-fusion-textura.jpg?v=639149053057470000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "38afb61076f6583ff51ea9f9bc9526000b689c4e0da9a746db47b11745ba2d07",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 55108,
+            "sha256": "96e678bb6d58823dd2384e3a85cf9dbb8b9f7b5acfd8a7c835992e7a77a21ce0"
+          }
+        },
+        {
+          "id": "wiler-50292",
+          "name": "Tecido Para Sofá e Estofado Fusion 17 Waterproof Chenille Cinza - Largura 1,40m",
+          "sku": "FUSION-17",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/all-colours/tecido-para-sofa-e-estofado-fusion-17-waterproof-chenille-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-fusion-17-chenille-cinza-waterpro/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224561/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-17-fusion-textura.jpg?v=639150468199330000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "4db068c327e5f8a08f1ee78488a9c433a56f439a0c1f259dc4694e543af03d13",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 82008,
+            "sha256": "fe8b18e1adbb5609c4d41c60bae415e3e0d73c452c5f2739e90cd5c6c7a48691"
+          }
+        },
+        {
+          "id": "wiler-50285",
+          "name": "Tecido Para Sofá e Estofado Fusion 10 Waterproof Chenille Celadon  - Largura 1,40m",
+          "sku": "FUSION-10",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/all-colours/tecido-para-sofa-e-estofado-fusion-10-waterproof-chenille-celadon-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-fusion-10-chenille-celadon--water/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/212911/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-10-fusion-plano.jpg?v=638515605234970000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "c284e32d3f5142b745125ef8d9d1b2fe400ce302cc339715a3d0acfd54d429f5",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 87646,
+            "sha256": "de416471882b0fdc97edb3534dcfcc774a6225fb8055266960e1ca3243cfd2df"
+          }
+        },
+        {
+          "id": "wiler-50283",
+          "name": "Tecido Para Sofá e Estofado Fusion 08 Waterproof Chenille Grafite  - Largura 1,40m",
+          "sku": "FUSION-08",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/all-colours/tecido-para-sofa-e-estofado-fusion-08-waterproof-chenille-grafite-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-fusion-08-chenille-grafite--water/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224575/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-08-fusion-textura.jpg?v=639150469073930000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "05162ff714deb0154bba3d4bc81139c660c716ed0235971cf8a7caef2041893b",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 58572,
+            "sha256": "0537c3e5ddadefcf98c7d3f983ab9a3c497a87e80d5d658951394d0a1ebf5d54"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-006",
+      "name": "Book 006",
+      "type": "supplier-collection",
+      "supplier_product_count": 15,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-52049",
+          "name": "Tecido Para Sofá e Estofado Linho Onix 01 Cru - Largura 1,40m",
+          "sku": "ONI-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-006/tecido-para-sofa-e-estofado-linho-onix-01-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-onix-01-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222976/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-onix-textura-1.jpg?v=639143813057430000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "a509193f6f4a3a39929e0d1ae14e60e4e3b9419b7bf1d04cf8d607540576000c",
+            "selection_score": 77.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 56584,
+            "sha256": "f16fa1c21f974b82b8c8696cdde85e269d1d8642e2e02688ab328d0e37fa8606"
+          }
+        },
+        {
+          "id": "wiler-52044",
+          "name": "Tecido Para Sofá e Estofado Bouclê Toronto 05 Mescla Bege Branco Cinza - Largura 1,40m",
+          "sku": "BTO-05",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-006/tecido-para-sofa-e-estofado-boucle-toronto-05-mescla-bege-branco-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-boucle-toronto-05-mesc/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224060/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-boucle-toronto-textura-5.jpg?v=639148950152470000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "46ae80e4221a5bc4ed7e885a510e6e7dc19475c38105ddd0ebfba2bd3d5c58e0",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 39122,
+            "sha256": "ea99213976e80318f09dc4a45571cf5d086b278992d8f1b4d19c5c382d1b28f7"
+          }
+        },
+        {
+          "id": "wiler-52052",
+          "name": "Tecido Para Sofá e Estofado Linho Onix 04 Bege - Largura 1,40m",
+          "sku": "ONI-04",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-006/tecido-para-sofa-e-estofado-linho-onix-04-bege-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-onix-04-bege/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222970/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-onix-textura-4.jpg?v=639143812813600000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "6ea94e6aa8d114dbde8da00ac94b36d9f75725508da3e9f7cc3d2b1cbcc55d8b",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 68068,
+            "sha256": "172a4c8ec69c3139ee7ed18b87d99d2499e8831e6cc3e974c909b16861f78669"
+          }
+        },
+        {
+          "id": "wiler-52051",
+          "name": "Tecido Para Sofá e Estofado Linho Onix 03 Cinza - Largura 1,40m",
+          "sku": "ONI-03",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-006/tecido-para-sofa-e-estofado-linho-onix-03-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-onix-03-cinza/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222972/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-onix-textura-3.jpg?v=639143812905900000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "33a6f89cbcc2af8d3b03a404f102d6b1ebcee7a7feaf48193348f9e148af1bd3",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 77190,
+            "sha256": "344bc0dcb5ed9cc1d575696f96f293ea6b4b51208adf3275f877fbd56f8c9ed5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-005",
+      "name": "Book 005",
+      "type": "supplier-collection",
+      "supplier_product_count": 27,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-52075",
+          "name": "Tecido Para Sofá e Estofado Linho Roma 01 Natural - Largura 1,40m",
+          "sku": "ROM-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-005/tecido-para-sofa-e-estofado-linho-roma-01-natural-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-roma-01-natural/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222188/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-roma-textura-1.jpg?v=639142132083630000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "0db53e4c7adc59a875d8e95c9b8e48b85a3430656ef4e209f6e0384326ace798",
+            "selection_score": 77.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 42494,
+            "sha256": "04d9c8adef5f0bca5e26879f1980a9f564056cc1b706e0fe6359cdc6a656c752"
+          }
+        },
+        {
+          "id": "wiler-52081",
+          "name": "Tecido Para Sofá e Estofado Linho Roma 07 Cinza - Largura 1,40m",
+          "sku": "ROM-07",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-005/tecido-para-sofa-e-estofado-linho-roma-07-cinza-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-roma-07-cinza/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222190/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-roma-textura-7.jpg?v=639142132172730000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "e2a11d92da994f0131a5b917d63dfa55dd64719f7dc9b2c4fb8417ee1208b771",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 41908,
+            "sha256": "841e150c2ddc5a60f22f676405cb9ac5edb5895d092b34d10e95edecc71dea5c"
+          }
+        },
+        {
+          "id": "wiler-52082",
+          "name": "Tecido Para Sofá e Estofado Linho Roma 08 Chumbo - Largura 1,40m",
+          "sku": "ROM-08",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-005/tecido-para-sofa-e-estofado-linho-roma-08-chumbo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-roma-08-chumbo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222194/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-roma-textura-8.jpg?v=639142133557100000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "705f3ef5263edd51a4a4c86e3ec51d8a211409e484c972103cc88ea3505b9db5",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 58352,
+            "sha256": "00f35fed7c4d13d9da175dfd01154e2f07cc368a68a18a0f6eac7ad2eb48687d"
+          }
+        },
+        {
+          "id": "wiler-52079",
+          "name": "Tecido Para Sofá e Estofado Linho Roma 05 Musgo - Largura 1,40m",
+          "sku": "ROM-05",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/book-005/tecido-para-sofa-e-estofado-linho-roma-05-musgo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-linho-roma-05-musgo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222192/Tecidos-para-sofa-e-estofados-Wiler-Tapecaria-linho-roma-textura-5.jpg?v=639142133375030000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "ce249a50c2a5409929d24f5daecec3d9d066534d9271e4c2f664d875cc8c212e",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40034,
+            "sha256": "4fffaf2e8b965ce71b7407f3b8a41dea5c0a42e328e7841adb4ae68de56a4ef8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monarca",
+      "name": "Monarca",
+      "type": "supplier-collection",
+      "supplier_product_count": 28,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-51195",
+          "name": "Tecido para Sofá e Estofado Monarca 18 Gobelin Clássico - Azul e Branco - Largura 1,40m",
+          "sku": "MONAR-18",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monarca/tecido-para-sofa-e-estofado-monarca-18-gobelin-classico-azul-e-branco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-monarca-18-gobelain-classico-azul-branco/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219633/TapeteMonarca18-1.jpg?v=639124658354400000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "39d415e1232d8dda64a67323dd33e76127a354ac0f5db5f5b2a443746e93dbcc",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 83510,
+            "sha256": "85c75369f7170e910648a9ec6bbcc0b577a7126e2900c35997c29375fe64d76a"
+          }
+        },
+        {
+          "id": "wiler-51293",
+          "name": "Tecido para Sofá e Estofado Monarca 12 Gobelin Floral - Creme e Terracota - Largura 1,40m",
+          "sku": "MONAR-12",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monarca/tecido-para-sofa-e-estofado-monarca-12-gobelin-floral-creme-e-terracota-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-monarca-12-gobelain-floral-terracota-creme/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219607/TapeteMonarca12-1.jpg?v=639124656845900000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2685d940ec936d4598a9e0a3fbc80053e612937c70ade2ca6df26d835b8e84da",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 74054,
+            "sha256": "9528ccf002e5a4e2ef8da9aed92e165016cf0ba0c1a6cfd3053d7081aa18a6d6"
+          }
+        },
+        {
+          "id": "wiler-51283",
+          "name": "Tecido para Sofá e Estofado Monarca 02 Gobelin Geométrico - Terracota e Cru - Largura 1,40m",
+          "sku": "MONAR-02",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monarca/tecido-para-sofa-e-estofado-monarca-02-gobelin-geometrico-terracota-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-monarca-02-gobelain-geome-terracota-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219625/TapeteMonarca02-1.jpg?v=639124657963930000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "812398b59a7f4b6c63279f0c3eff47fea674810488d988c12aef4da696ce1e52",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 76962,
+            "sha256": "18972df234ec50d95c0ed46c5b62cd83dfb6dcd5f16035a8c33c73bd6a16382d"
+          }
+        },
+        {
+          "id": "wiler-51286",
+          "name": "Tecido para Sofá e Estofado Monarca 21 Gobelin Listrado - Azul e Cru - Largura 1,40m",
+          "sku": "MONAR-21",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/monarca/tecido-para-sofa-e-estofado-monarca-21-gobelin-listrado-azul-e-cru-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tc-monarca-21-gobelain-listado-azul-cru/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/219621/TapeteMonarca21-1.jpg?v=639124657716100000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "f0ec0a47fec9f73811ba31e34c545c7316530355943f25ec3d1d6e80b302c195",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 62458,
+            "sha256": "bf9e21a71a0898f957b650865cf3e077a0019fad3effe16a2aaee89b864aac5a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brisas",
+      "name": "Brisas",
+      "type": "supplier-collection",
+      "supplier_product_count": 39,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-55812",
+          "name": "Tecido para Sofá e Estofado Área Externa Tenerife 04 Linho Mescla Azul - Largura 1,50m",
+          "sku": "TENE-04",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/brisas/tecido-para-sofa-e-estofado-area-externa-tenerife-04-linho-mescla-azul-largura-1-50m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-tenerife-04-linho-mescla-azul-largura-1-50m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/222578/tecido-para-sofa-e-estofado-tenerife-04-linho-cru-largura-1-40m-textura.jpg?v=639143782437070000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "79c03d2259d22f964b768d4bff977b2eefeebb8a7a5d753dcd4e1e693d6e5c9d",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 39132,
+            "sha256": "ae3cc4ea5cbb0c13534034cae9a07db36b2d1478963f5554c217b4e43fa2a446"
+          }
+        },
+        {
+          "id": "wiler-55806",
+          "name": "Tecido para Sofá e Estofado Área Externa Minorca 03 Listra Azul - Largura 1,50m",
+          "sku": "MIN-03",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/brisas/tecido-para-sofa-e-estofado-area-externa-minorca-03-listra-azul-largura-1-50m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-minorca-03-listra-azul-largura-150m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226448/minorca-textura-03.jpg?v=639155046794900000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "0f574fab35e9cb4b6a43356211c1354b4c177fda58729836ebabcc2bc13882d7",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 23182,
+            "sha256": "f6e157fd71381b45060ed88639e7b08b050f332950394b51f7aff6884b4479e2"
+          }
+        },
+        {
+          "id": "wiler-55808",
+          "name": "Tecido para Sofá e Estofado Área Externa Minorca 05 Listra Verde - Largura 1,50m",
+          "sku": "MIN-05",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/brisas/tecido-para-sofa-e-estofado-area-externa-minorca-05-listra-verde-largura-1-50m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-minorca-05-listra-verde-largura-1-50m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224212/minorca-textura-05.jpg?v=639149648897070000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "3c35d34c1bcbce88af50fd2c2b6d53f04a2b19463405dfdf459f88d0984a680e",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 18792,
+            "sha256": "82597f91726a01c6d979c5a765de68a202cc63f415b4613b412147472475e464"
+          }
+        },
+        {
+          "id": "wiler-55803",
+          "name": "Tecido para Sofá e Estofado Área Externa Maiorca 08 Panamá Mescla Azul - Largura 1,50m",
+          "sku": "MAI-08",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/brisas/tecido-para-sofa-e-estofado-area-externa-maiorca-08-panama-mescla-azul-largura-1-50m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-maiorca-08-panama-mescla-azul-largura-1-50m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/216627/tecido-para-sofa-e-estofado-maiorca-08-plano.jpg?v=638950332320130000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2b61939ff0efe95e87c8d0ae4faacfc81e9537a24f0bb6ce0dbd1b4e3416b146",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 53236,
+            "sha256": "1b31d51afbb859ccad67e6afe87ff29be5c36873c7bc5cdb2cc564bf939a3a73"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aquarela",
+      "name": "Aquarela",
+      "type": "supplier-collection",
+      "supplier_product_count": 40,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-55841",
+          "name": "Tecido para Sofá e Estofado Serena 07 Verde Hortelã - Largura 1,40m",
+          "sku": "SERE-07",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-serena-07-verde-hortela-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-serena-07-verde-hortela-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226438/tecido-para-sofa-e-estofado-serena-07-off-white-largura-1-40m-textura.jpg?v=639155044811300000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2df55fabaa820620bb7d77b3a3831a0c8a35eb8f554c546691d496bd40245bda",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 58978,
+            "sha256": "4b5fb9a246d061b99ad8f8dd7feeef5b9841ad930c0c3af9e5d0d2b0cf504f1a"
+          }
+        },
+        {
+          "id": "wiler-55851",
+          "name": "Tecido para Sofá e Estofado Malva 02 Cinza Mescla Claro - Largura 1,40m",
+          "sku": "MALVA-02",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-malva-02-cinza-mescla-claro-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-malva-02-cinza-mescla-claro-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/216771/tecido-para-sofa-e-estofado-malva-02-natural-largura-1-40m-plano.jpg?v=638951135737070000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "b4144c3d81258d03783aa8221d9f3e3bed1f7e51506a67a982f9177767af7c0b",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 43532,
+            "sha256": "e0e87eaae8c30ff984661bbf7335059a6de9aa8f802727f7a138bc7dcec93db3"
+          }
+        },
+        {
+          "id": "wiler-55852",
+          "name": "Tecido para Sofá e Estofado Malva 03 Azul Oceano - Largura 1,40m",
+          "sku": "MALVA-03",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-malva-03-azul-oceano-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-malva-03-azul-oceano-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/216773/tecido-para-sofa-e-estofado-malva-03-natural-largura-1-40m-plano.jpg?v=638951135836070000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "7585e68d862320103ea029914219ca860a8ea0485c93182bc01e200747891d99",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 76836,
+            "sha256": "8457b46e1e5505cc023457aa035091af7bb7d4b3360ad191461dc2760a5c521b"
+          }
+        },
+        {
+          "id": "wiler-55849",
+          "name": "Tecido para Sofá e Estofado Volpi 07 Marinho - Largura 1,40m",
+          "sku": "VOLPI-07",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-volpi-07-marinho-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-volpi-07-marinho-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/226392/tecido-para-sofa-e-estofado-volpi-07-platina-largura-1-40m-textura.jpg?v=639154840880070000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "f9a1e3da03066894cd778c7e8c4641fe124673990489bb79cf956e1f34c1f317",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40198,
+            "sha256": "cd6ecb84c9d7cbf3174fd306a9eb1bc5865178b5550c473fa576fcefa9288f75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "duo-cotton",
+      "name": "DUO Cotton",
+      "type": "supplier-collection",
+      "supplier_product_count": 33,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-789771",
+          "name": "Tecido Para Sofá e Estofado Lonaforti 111 Marrom Cacau - Largura 1,60m",
+          "sku": "LONAF-111",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/duo-cotton/tecido-para-sofa-e-estofado-lonaforti-111-marrom-cacau-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-lonaforti-111-marrom-cacau-largura-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220288/tecido-para-sofa-e-estofado-lonaforti-111-marrom-cacau-largura-140m-1.jpg?v=639129160165630000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "07f85dcda08f652c35ab106a15396d31582f3a65fab0fd85ebe72e2657784ab1",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 41450,
+            "sha256": "e925815f24f2a0a821e8dcbab8a9710d0e4163d2bbbb8dd1241c4b6e8ad177ff"
+          }
+        },
+        {
+          "id": "wiler-789772",
+          "name": "Tecido Para Sofá e Estofado Lonaforti 112 Verde Pinheiro - Largura 1,60m",
+          "sku": "LONAF-112",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/duo-cotton/tecido-para-sofa-e-estofado-lonaforti-112-verde-pinheiro-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-lonaforti-112-verde-pinheiro-largura-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220284/tecido-para-sofa-e-estofado-lonaforti-112-verde-pinheiro-largura-140m-1.jpg?v=639129160057930000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "8f1c4eef25ec7fc1a9e69fbb9f7749cfa22ae1332f165e647b3fa5fe40fcc7ee",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 33572,
+            "sha256": "142ac80e20c1a4eb0edbace743389bc6b1e9d145cec189ee48c9abf6c412d4a8"
+          }
+        },
+        {
+          "id": "wiler-789768",
+          "name": "Tecido Para Sofá e Estofado Lonaforti 108 Chocolate Noz - Largura 1,60m",
+          "sku": "LONAF-108",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/duo-cotton/tecido-para-sofa-e-estofado-lonaforti-108-chocolate-noz-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-lonaforti-108-chocolate-noz-largura-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220300/tecido-para-sofa-e-estofado-lonaforti-108-chocolate-noz-largura-140m-1.jpg?v=639129160571570000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "537bfe56a63ce8889705624f33358e4c4e5328fc9597090e6d36b180e30c2ab0",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 38772,
+            "sha256": "9d229081bdd93d457bcd3eeead158caecbbf1d75452c74bce7e00c74477c4339"
+          }
+        },
+        {
+          "id": "wiler-789766",
+          "name": "Tecido Para Sofá e Estofado Lonaforti 106 Bege Gengibre - Largura 1,60m",
+          "sku": "LONAF-106",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/duo-cotton/tecido-para-sofa-e-estofado-lonaforti-106-bege-gengibre-largura-1-60m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-lonaforti-106-bege-gengibre-largura-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/220308/tecido-para-sofa-e-estofado-lonaforti-106-bege-gengibre-largura-140m-1.jpg?v=639129160723930000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "a1d230618bf5f79b45bad904dbf686d15bf1a48e0950080095f730d0c48849d5",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 29184,
+            "sha256": "55e06024a581951c338414b418386411d6e8f47c6b1ad3f67e806b3cdd48d665"
+          }
+        }
+      ]
+    },
+    {
+      "id": "montreal",
+      "name": "Montreal",
+      "type": "supplier-collection",
+      "supplier_product_count": 32,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-51365",
+          "name": "Tecido para Sofá e Estofados Manchester 04 Dourado Waterproof - Largura 1,40m",
+          "sku": "MANC-04",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/montreal/tecido-para-sofa-e-estofados-manchester-04-dourado-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-sofa-manchester-04-dourado-waterproof/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224062/MANCHESTER-TEXTURA-04.webp?v=639148951729930000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "1fef73c4eb489c934a98260c8ec9850016b528dfcb4081431b38cc9765e427f1",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 79424,
+            "sha256": "8b33f3a11c022cbcaabf1b1b9e25a5794e21a6d6d11f19342b3c4a883b5070f1"
+          }
+        },
+        {
+          "id": "wiler-51364",
+          "name": "Tecido para Sofá e Estofados Manchester 03 Bege Waterproof 1,40m",
+          "sku": "MANC-03",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/montreal/tecido-para-sofa-e-estofados-manchester-03-bege-waterproof-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-sofa-manchester-03-bege-waterproof/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224331/MANCHESTER-TEXTURA-03.webp?v=639150455371600000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "d2703d5533690c98f8bb9921c34e62b2ae84a54be4f4e4b58e785062d22d993a",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 65036,
+            "sha256": "c68fc7b33499bbca616f3253f4d96b56339760ab0f1fe03d014ea2c9cf894050"
+          }
+        },
+        {
+          "id": "wiler-51391",
+          "name": "Tecido para Sofá e Estofados Marselha 06 Chenille Terracota Waterproof - Largura 1,40m",
+          "sku": "MARS-06",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/montreal/tecido-para-sofa-e-estofados-marselha-06-chenille-terracota-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofados-marselha-chenille-06-terracota/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224437/MARSELHA-TEXTURA-06.webp?v=639150461944870000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2cf30e63216b34f4fb7cca9395b21a757af854c39b85440543e9099b45bbe01d",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 63244,
+            "sha256": "58d4aae07f2777f19cea6d41ef5785e1aed51c9a3ffa67b8fee80cd5147891cf"
+          }
+        },
+        {
+          "id": "wiler-51392",
+          "name": "Tecido para Sofá e Estofados Marselha 07 Chenille Verde Waterproof - Largura 1,40m",
+          "sku": "MARS-07",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/montreal/tecido-para-sofa-e-estofados-marselha-07-chenille-verde-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofados-marselha-chenille-07-verde/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224441/MARSELHA-TEXTURA-07.webp?v=639150462141200000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "c19132d8339329591f6c6ec8e9c08f377dfa7aa77c417f40e2ab1720a9e0e71e",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 70450,
+            "sha256": "fb588daae26409bc370e169139da11478543a5a9a33115d46352755c4fad131b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-002",
+      "name": "Book 002",
+      "type": "supplier-collection",
+      "supplier_product_count": 9,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-53939",
+          "name": "Tecido Para Sofá e Estofado Asteca Veludo 08 Tabaco - Largura 1,40m",
+          "sku": "ASTE-08",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/book-002/tecido-para-sofa-e-estofado-asteca-veludo-08-tabaco-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-asteca-veludo-08-tabaco/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221474/veludo-asteca-textura-08.webp?v=639141925109070000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "81b921333843bc5cfcb4b7c86502eec050f92152417fe35e17447464f953c432",
+            "selection_score": 62.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 38170,
+            "sha256": "179f3c8a41a83a6cf532bb79efb4d4f5e8103cbf584465ad8f8ab0189c4c51be"
+          }
+        },
+        {
+          "id": "wiler-53937",
+          "name": "Tecido Para Sofá e Estofado Asteca Veludo 06 Ferrugem - Largura 1,40m",
+          "sku": "ASTE-06",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/book-002/tecido-para-sofa-e-estofado-asteca-veludo-06-ferrugem-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-asteca-veludo-06-ferrugem/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221480/veludo-asteca-textura-06.webp?v=639141926109100000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "977ef9ce8b13a9e420da1fdfe3c44fa1a3bc9da9016cfa2254633d1842321141",
+            "selection_score": 60.988
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 21918,
+            "sha256": "7ed190cfd780340ed1e48713b96af95492760fe869ffd0c2ca87c707db6b8e2c"
+          }
+        },
+        {
+          "id": "wiler-53936",
+          "name": "Tecido Para Sofá e Estofado Asteca Veludo 05 Caramelo - Largura 1,40m",
+          "sku": "ASTE-05",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/book-002/tecido-para-sofa-e-estofado-asteca-veludo-05-caramelo-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-asteca-veludo-05-caramelo/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221483/veludo-asteca-textura-05.webp?v=639141926810630000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "ec5d9bcd628e0715c74f5c8d170f4c848eebb3c20388d415e83940bfd3661711",
+            "selection_score": 59.602
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 32978,
+            "sha256": "a6d5d261f675b156f62a886f098baf800efeacdb245e867705d455fd8abae779"
+          }
+        },
+        {
+          "id": "wiler-53938",
+          "name": "Tecido Para Sofá e Estofado Asteca Veludo 07 Vinho - Largura 1,40m",
+          "sku": "ASTE-07",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/book-002/tecido-para-sofa-e-estofado-asteca-veludo-07-vinho-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-asteca-veludo-07-vinho/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221477/veludo-asteca-textura-07.webp?v=639141925292200000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "32a3eaac1be1be7f85a3a6b8288c42cf8d3eb6c2b5696c233389430d9be5c5c1",
+            "selection_score": 59.467
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 22112,
+            "sha256": "ff307bace9e38d216fe866e44b1270625ef9a6b8eddeecfded936822c1c58405"
+          }
+        }
+      ]
+    },
+    {
+      "id": "esfera",
+      "name": "Esfera",
+      "type": "supplier-collection",
+      "supplier_product_count": 52,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-49725",
+          "name": "Tecido Para Sofá e Estofados Veludo Sena 10 Vinho (Maia-10) - Largura 1,40m",
+          "sku": "MAIA-10",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/esfera/tecido-para-sofa-e-estofados-veludo-sena-10-vinho-maia-10-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-veludo-maia-10-vinho/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/221238/Tecidos-para-sofa-e-estofados-Colecao-Maia-MAIA-10-VINHO-TEXTURA.jpg?v=639141888525100000",
+          "source_image": {
+            "width": 2000,
+            "height": 2000,
+            "sha256": "e558dae2def68bcf6a51bae369ca0e0d84d295c3135b79d8558fd968e97e5377",
+            "selection_score": 52.796
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 4110,
+            "sha256": "8c504699d2b66b8ed439191916db00c0c035c12269889e04f284b06321b59018"
+          }
+        },
+        {
+          "id": "wiler-791146",
+          "name": "Tecido para Sofá e Estofados Pluf 06 Verde Floresta - Largura 1,40m",
+          "sku": "PLUF-06",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/esfera/tecido-para-sofa-e-estofados-pluf-06-verde-floresta-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofados-chenille-pluf-06-verde-floresta-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/218191/Pluf-06_Liso.webp?v=639106466417600000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "eaa75e1909a7a3acdbf21956d7fe9f4de2741eeafc2bc4d0aa80f8ce44f0a196",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 63452,
+            "sha256": "39c976ebb569831be8ab1a363ca9198e44d4a0827e148daea2293c77168027af"
+          }
+        },
+        {
+          "id": "wiler-791147",
+          "name": "Tecido para Sofá e Estofados Pluf 07 Azul Noturno - Largura 1,40m",
+          "sku": "PLUF-07",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/esfera/tecido-para-sofa-e-estofados-pluf-07-azul-noturno-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofados-chenille-pluf-07-azul-noturno-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/229294/Pluf-07_Textura.webp?v=639180856952830000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "838e3fc66efab3d6ee282ac1597dc179caffd3bbb846be01412f014cb9324168",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 51734,
+            "sha256": "cd66c611eb75c509ae19e226ce6a66fce4f85caca76e00545cc47e082ec71de0"
+          }
+        },
+        {
+          "id": "wiler-791145",
+          "name": "Tecido para Sofá e Estofados Pluf 05 Amarelo Cúrcuma - Largura 1,40m",
+          "sku": "PLUF-05",
+          "brand": "Edantex",
+          "preview": "catalog/tecidos/esfera/tecido-para-sofa-e-estofados-pluf-05-amarelo-curcuma-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofados-chenille-pluf-05-amarelo-curcuma-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/218249/Pluf05-Carcuma-.webp?v=639076287713570000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "28d276c2e005ca7979fc04552e70dda6b64ac9cd5729171613e14b7ec4af51b1",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 88712,
+            "sha256": "bf79002bd99bcadaf783626ddd721639a5b0e86659ec3031cd793a9516ba5955"
+          }
+        }
+      ]
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "type": "supplier-collection",
+      "supplier_product_count": 30,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-51422",
+          "name": "Tecido para Sofá e Estofado Chenille Segóvia 04 Castor (Waterproof) - Largura 1,40m",
+          "sku": "SEGO-04",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/granada/tecido-para-sofa-e-estofado-chenille-segovia-04-castor-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-chenille-segovia-04-castor-waterproof-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224402/tecido-para-sofa-e-estofado-chenille-segovia-compose-1.webp?v=639150458431230000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2ff5550c2c5b15db0d23e458e206b20d8f7938e2916cab640b9e3028914e05b0",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40052,
+            "sha256": "c4b73052b986d234062433115194160048aa0968f69e5176688a7929a91a7b75"
+          }
+        },
+        {
+          "id": "wiler-51424",
+          "name": "Tecido para Sofá e Estofado Chenille Segóvia 06 Verde (Waterproof) - Largura 1,40m",
+          "sku": "SEGO-06",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/granada/tecido-para-sofa-e-estofado-chenille-segovia-06-verde-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-chenille-segovia-06-verde-waterproof-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224392/tecido-para-sofa-e-estofado-chenille-segovia-compose-1.webp?v=639150458069870000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2ff5550c2c5b15db0d23e458e206b20d8f7938e2916cab640b9e3028914e05b0",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40052,
+            "sha256": "c4b73052b986d234062433115194160048aa0968f69e5176688a7929a91a7b75"
+          }
+        },
+        {
+          "id": "wiler-51419",
+          "name": "Tecido para Sofá e Estofado Chenille Segóvia 01 Off White (Waterproof) - Largura 1,40m",
+          "sku": "SEGO-01",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/granada/tecido-para-sofa-e-estofado-chenille-segovia-01-off-white-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-chenille-segovia-01-off-white-waterproof-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/218612/tecido-para-sofa-e-estofado-chenille-segovia-compose-1.webp?v=639086610421430000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "880a372d4c0da8caf485eb3dac3393348ce4dd874441047a67e8d221f9bc70de",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40528,
+            "sha256": "d44bacb1b04dd7de84ab631aff1ce4e8fcf5e8d4283c8f9039facbdaf1c461d4"
+          }
+        },
+        {
+          "id": "wiler-51425",
+          "name": "Tecido para Sofá e Estofado Chenille Segóvia 07 Cinza (Waterproof) - Largura 1,40m",
+          "sku": "SEGO-07",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/granada/tecido-para-sofa-e-estofado-chenille-segovia-07-cinza-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-para-sofa-e-estofado-chenille-segovia-07-cinza-waterproof-largura-1-40m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224387/tecido-para-sofa-e-estofado-chenille-segovia-compose-1.webp?v=639150457982230000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2ff5550c2c5b15db0d23e458e206b20d8f7938e2916cab640b9e3028914e05b0",
+            "selection_score": 47.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 40052,
+            "sha256": "c4b73052b986d234062433115194160048aa0968f69e5176688a7929a91a7b75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elegance",
+      "name": "Elegance",
+      "type": "supplier-collection",
+      "supplier_product_count": 32,
+      "requested_samples": 4,
+      "selected_samples": 4,
+      "selection_note": "Seleção baseada em enquadramento frontal, resolução, proporção e nitidez.",
+      "items": [
+        {
+          "id": "wiler-51457",
+          "name": "Tecido para Sofá e Estofados Elegance 32 Rústico Fendi Waterproof - Largura 1,40m",
+          "sku": "ELEG-32",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/elegance/tecido-para-sofa-e-estofados-elegance-32-rustico-fendi-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-sofa-estofado-elegance-32-rustico-fendi-waterproof-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224269/ELEGANCE-32-TEXTURA.webp?v=639150449996100000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "12c18b6af57e3eca0b9753d2fd5f8b9b3d12b055abae26a4f94fb698a35f580a",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 116964,
+            "sha256": "9631bc148302d52a024c75e678eb97b6a470d1635e8f181cc84bdb57b626df1f"
+          }
+        },
+        {
+          "id": "wiler-51456",
+          "name": "Tecido para Sofá e Estofados Elegance 31 Rústico Cru Waterproof - Largura 1,40m",
+          "sku": "ELEG-31",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/elegance/tecido-para-sofa-e-estofados-elegance-31-rustico-cru-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-sofa-estofado-elegance-31-rustico-cru-waterproof-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224266/ELEGANCE-31-TEXTURA.webp?v=639150449679070000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "c0f4f871716c8ecdc6eba777d15a844c0caf78689dcb4bbfcde23a4105106e40",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 112004,
+            "sha256": "f7b008120cf4f03a6777b4eea3da0aa636a67647e7f0d34d6d04f1ced5d03841"
+          }
+        },
+        {
+          "id": "wiler-51454",
+          "name": "Tecido para Sofá e Estofados Elegance 29 Rústico Gelo Waterproof - Largura 1,40m",
+          "sku": "ELEG-29",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/elegance/tecido-para-sofa-e-estofados-elegance-29-rustico-gelo-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-sofa-estofado-elegance-29-rustico-gelo-waterproof-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224272/ELEGANCE-29-TEXTURA.webp?v=639150450316700000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "eb67b0ac0caff80007bb918b00bf9f5fdd654ef174467341d3cba943f9315d7a",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 68242,
+            "sha256": "765b549c7b2b6921f6b576917b60fce5d78aededb1784c9e4df7d4fab761193b"
+          }
+        },
+        {
+          "id": "wiler-51449",
+          "name": "Tecido para Sofá e Estofados Elegance 24 Rústico Fendi Waterproof - Largura 1,40m",
+          "sku": "ELEG-24",
+          "brand": "Wiler",
+          "preview": "catalog/tecidos/elegance/tecido-para-sofa-e-estofados-elegance-24-rustico-fendi-waterproof-largura-1-40m.webp",
+          "source_product_url": "https://www.wiler.com.br/tecido-sofa-estofado-elegance-24-rustico-fendi-waterproof-140m/p",
+          "source_image_url": "https://willerk.vteximg.com.br/arquivos/ids/224287/ELEGANCE-24-TEXTURA.webp?v=639150451261370000",
+          "source_image": {
+            "width": 1000,
+            "height": 1000,
+            "sha256": "bbd45bac933d0fe1b1c809643b28ce753823abd6ca7676a27a958683e803a4a0",
+            "selection_score": 32.0
+          },
+          "maps": {
+            "albedo": null,
+            "ao": null,
+            "normal": null,
+            "roughness": null
+          },
+          "physical_scale_cm": null,
+          "status": "prototype-reference",
+          "preview_image": {
+            "width": 512,
+            "height": 512,
+            "format": "webp",
+            "bytes": 93320,
+            "sha256": "99fd61dcb39e22af64e8397a07b7eb1e752d90c7c15eda8cb32fdb842f8e9f91"
+          }
+        }
+      ]
+    }
+  ]
+}
