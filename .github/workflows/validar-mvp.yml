@@ -1,9 +1,9 @@
-name: Validar AR MVP
+name: Validar KARV 3D MVP
 
 on:
   pull_request:
     branches:
-      - agent/estrutura-configurador
+      - main
   workflow_dispatch:
 
 permissions:
@@ -14,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Baixar codigo
+      - name: Baixar código
         uses: actions/checkout@v4
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - name: Instalar dependencias
+      - name: Instalar dependências
         run: npm ci
-      - name: Validar modelo e AR
+      - name: Validar modelo, catálogo e runtime
         run: npm test
-      - name: Gerar build estatico
+      - name: Gerar build estático
         run: npm run build

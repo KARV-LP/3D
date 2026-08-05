@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "node tests/validate-ar.mjs",
+    "test": "node tests/validate-mvp.mjs",
     "build": "node scripts/build-static.mjs"
   },
   "devDependencies": {

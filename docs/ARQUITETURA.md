@@ -1,27 +1,21 @@
-# Arquitetura do Configurador KARV
-
-## Estrutura aprovada
+# Arquitetura reduzida — KARV 3D MVP
 
 ```text
-karv-configurator/
-├── app/
-│   ├── index.html
-│   ├── styles/
-│   └── runtime/
-├── base/
-│   ├── base.glb
-│   ├── base.manifest.json
-│   ├── uv-templates/
-│   └── designer-kit/
-├── integrations/
-│   ├── catalog-api.js
-│   ├── pedido-netlify.js
-│   └── whatsapp.js
-├── schemas/
-├── tests/
-└── netlify.toml
+Navegador
+  ├── app/index.html
+  ├── model-viewer
+  ├── base/base.v1.fe8f015c.glb
+  └── catalog/catalog.json + 24 previews
 ```
 
-## Separação
+O mesmo runtime controla configuração e AR. Não há backend, API de catálogo ou repositório adicional nesta fase.
 
-O Configurador controla o 3D, a seleção de faces, a aplicação de texturas e o pedido. A Biblioteca KARV permanece em repositório independente e fornece o catálogo por manifesto JSON versionado.
+## Contrato mínimo
+
+- `base.manifest.json` identifica a geometria e os materiais.
+- `catalog.json` fornece seis coleções visuais.
+- o clique no modelo resolve o material por `materialFromPoint`;
+- `createTexture` e `setTexture` aplicam a referência escolhida;
+- o build copia somente os ativos necessários ao deploy estático.
+
+Recursos PBR, escala técnica, pipeline de publicação e armazenamento externo ficam fora do caminho crítico do MVP.
