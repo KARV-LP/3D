@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "karv-wiler-mvp-24",
+  "title": "Biblioteca visual KARV — MVP",
+  "generated_at": "2026-08-04T21:27:00-03:00",
+  "usage": {
+    "scope": "configurator-visual-prototype",
+    "production_ready": false,
+    "warning": "Referências visuais sem escala física validada, repetição seamless ou mapas PBR."
+  },
+  "summary": {"collections": 6, "samples": 24},
+  "collections": [
+    {
+      "id": "origens", "name": "Origens", "items": [
+        {"id":"origens-14","name":"Origens 14 — Chenille geométrico fendi","preview":"../catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-14-chenille-geometrico-circulo-fendi-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"origens-32","name":"Origens 32 — Rústico azul e bege","preview":"../catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-32-rustico-palha-azul-e-bege-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"origens-33","name":"Origens 33 — Bouclê listrado azul","preview":"../catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-33-rustico-boucle-listrado-azul-e-cru-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"origens-48","name":"Origens 48 — Bouclê preto e cru","preview":"../catalog/tecidos/origens/tecido-para-sofa-e-estofado-origens-48-rustico-boucle-listrado-preto-e-cru-largura-1-40m.webp","status":"prototype-reference"}
+      ]
+    },
+    {
+      "id": "trieste", "name": "Trieste", "items": [
+        {"id":"trieste-18","name":"Trieste 18 — Floral terracota e verde","preview":"../catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-18-floral-terracota-e-verde-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"trieste-22","name":"Trieste 22 — Listrado marrom e cru","preview":"../catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-22-listrado-marrom-e-cru-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"trieste-32","name":"Trieste 32 — Cinza e mostarda","preview":"../catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-32-listrado-cinza-e-mostarda-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"trieste-38","name":"Trieste 38 — Geométrico preto e bege","preview":"../catalog/tecidos/trieste/tecido-impermeabilizado-para-sofa-e-estofado-trieste-38-geometrico-preto-e-bege-largura-1-40m.webp","status":"prototype-reference"}
+      ]
+    },
+    {
+      "id": "aquarela", "name": "Aquarela", "items": [
+        {"id":"malva-02","name":"Malva 02 — Cinza mescla claro","preview":"../catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-malva-02-cinza-mescla-claro-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"malva-03","name":"Malva 03 — Azul oceano","preview":"../catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-malva-03-azul-oceano-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"serena-07","name":"Serena 07 — Verde hortelã","preview":"../catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-serena-07-verde-hortela-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"volpi-07","name":"Volpi 07 — Marinho","preview":"../catalog/tecidos/aquarela/tecido-para-sofa-e-estofado-volpi-07-marinho-largura-1-40m.webp","status":"prototype-reference"}
+      ]
+    },
+    {
+      "id": "bali", "name": "Bali", "items": [
+        {"id":"saturno-01","name":"Saturno 01 — Creme","preview":"../catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-01-creme-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"saturno-04","name":"Saturno 04 — Tabaco","preview":"../catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-04-tabaco-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"saturno-05","name":"Saturno 05 — Cinza","preview":"../catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-05-cinza-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"saturno-06","name":"Saturno 06 — Chumbo","preview":"../catalog/tecidos/bali/tecido-para-sofa-e-estofado-linho-sintetico-saturno-06-chumbo-largura-1-40m.webp","status":"prototype-reference"}
+      ]
+    },
+    {
+      "id": "esfera", "name": "Esfera", "items": [
+        {"id":"pluf-05","name":"Pluf 05 — Amarelo cúrcuma","preview":"../catalog/tecidos/esfera/tecido-para-sofa-e-estofados-pluf-05-amarelo-curcuma-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"pluf-06","name":"Pluf 06 — Verde floresta","preview":"../catalog/tecidos/esfera/tecido-para-sofa-e-estofados-pluf-06-verde-floresta-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"pluf-07","name":"Pluf 07 — Azul noturno","preview":"../catalog/tecidos/esfera/tecido-para-sofa-e-estofados-pluf-07-azul-noturno-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"sena-10","name":"Sena 10 — Vinho","preview":"../catalog/tecidos/esfera/tecido-para-sofa-e-estofados-veludo-sena-10-vinho-maia-10-largura-1-40m.webp","status":"prototype-reference"}
+      ]
+    },
+    {
+      "id": "sofisticato", "name": "Sofisticato", "items": [
+        {"id":"alaska-01","name":"Alaska 01 — Bouclê natural","preview":"../catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-boucle-alaska-01-natural-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"alaska-04","name":"Alaska 04 — Bouclê oliva","preview":"../catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-boucle-alaska-04-oliva-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"sheep-03","name":"Sheep 03 — Veludo cinza","preview":"../catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-veludo-sheep-03-cinza-largura-1-40m.webp","status":"prototype-reference"},
+        {"id":"sheep-04","name":"Sheep 04 — Veludo bronze","preview":"../catalog/tecidos/sofisticato/tecido-para-sofa-e-estofado-veludo-sheep-04-bronze-largura-1-40m.webp","status":"prototype-reference"}
+      ]
+    }
+  ]
+}
