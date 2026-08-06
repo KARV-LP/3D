@@ -5,6 +5,7 @@ const collectionFilter = document.querySelector('#collectionFilter');
 const fabricGrid = document.querySelector('#fabricGrid');
 const applyAllButton = document.querySelector('#applyAllButton');
 
+const LIBRARY_CATALOG_URL = 'https://raw.githubusercontent.com/KARV-LP/karv-material-library/main/catalog/fabrics.json';
 const FIXED_MATERIALS = new Set(['pezinhos', 'VIVO']);
 const DISPLAY_NAMES = new Map([
   ['assento', 'Assento'], ['encosto-frt', 'Encosto frontal'], ['encosto lat', 'Encosto lateral'],
@@ -39,8 +40,9 @@ function selectMaterial(material) {
 }
 
 async function textureFor(item) {
-  if (!textureCache.has(item.preview)) textureCache.set(item.preview, viewer.createTexture(item.preview, 'image/webp'));
-  return textureCache.get(item.preview);
+  const source = item.texture ?? item.preview;
+  if (!textureCache.has(source)) textureCache.set(source, viewer.createTexture(source, 'image/webp'));
+  return textureCache.get(source);
 }
 
 async function applyFabric(material, item) {
@@ -71,6 +73,10 @@ async function chooseFabric(item, button) {
 function renderCollection(collectionId) {
   const collection = catalog.collections.find((entry) => entry.id === collectionId);
   fabricGrid.replaceChildren();
+  if (!collection) {
+    fabricGrid.textContent = 'Coleção indisponível.';
+    return;
+  }
   for (const item of collection.items) {
     const button = document.createElement('button');
     button.className = 'fabric-card';
@@ -82,10 +88,40 @@ function renderCollection(collectionId) {
   }
 }
 
+async function loadLibraryCollection() {
+  const response = await fetch(LIBRARY_CATALOG_URL, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`Biblioteca KARV indisponível: ${response.status}`);
+  const library = await response.json();
+  const items = (library.items ?? [])
+    .filter((item) => item.ready_for_configurator && item.assets?.base_color && item.assets?.preview)
+    .map((item) => ({
+      id: item.id,
+      name: item.name,
+      preview: new URL(item.assets.preview, LIBRARY_CATALOG_URL).href,
+      texture: new URL(item.assets.base_color, LIBRARY_CATALOG_URL).href,
+      source: 'karv-material-library',
+      pbrReady: item.pbr_ready === true,
+    }));
+
+  return {
+    id: 'karv-material-library',
+    name: 'Biblioteca KARV',
+    items,
+  };
+}
+
 async function loadCatalog() {
   const response = await fetch('../catalog/catalog.json');
   if (!response.ok) throw new Error(`Catálogo indisponível: ${response.status}`);
   catalog = await response.json();
+
+  try {
+    const libraryCollection = await loadLibraryCollection();
+    if (libraryCollection.items.length) catalog.collections.unshift(libraryCollection);
+  } catch (error) {
+    console.warn(error);
+  }
+
   collectionFilter.replaceChildren();
   for (const collection of catalog.collections) {
     const option = document.createElement('option');
