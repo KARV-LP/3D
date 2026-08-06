@@ -10,7 +10,15 @@ const glb = fs.readFileSync(new URL(`../base/${manifest.glb.file}`, import.meta.
 for (const token of ['ar-modes="webxr quick-look"','ar-placement="floor"','ar-scale="fixed"','slot="ar-button"',`src="../base/${manifest.glb.file}"`]) {
   if (!html.includes(token)) throw new Error(`Configuração ausente: ${token}`);
 }
-for (const token of ['materialFromPoint','createTexture','setTexture','catalog/catalog.json']) {
+for (const token of [
+  'materialFromPoint',
+  'createTexture',
+  'setTexture',
+  'catalog/catalog.json',
+  'raw.githubusercontent.com/KARV-LP/karv-material-library/main/catalog/fabrics.json',
+  'ready_for_configurator',
+  'item.texture ?? item.preview',
+]) {
   if (!runtime.includes(token)) throw new Error(`Runtime incompleto: ${token}`);
 }
 if (catalog.summary.collections !== 6 || catalog.summary.samples !== 24) throw new Error('O catálogo MVP deve conter 6 coleções e 24 tecidos');
@@ -37,4 +45,4 @@ if (!primitives.every((primitive) => primitive.attributes?.TEXCOORD_0 !== undefi
 if ((json.nodes ?? []).length !== manifest.part_count) throw new Error('Peças divergem do manifesto');
 const sha256 = crypto.createHash('sha256').update(glb).digest('hex');
 if (manifest.glb.sha256 !== sha256 || manifest.glb.size_bytes !== glb.length) throw new Error('Hash ou tamanho diverge do manifesto');
-console.log(JSON.stringify({status:'ok',model:manifest.glb.file,bytes:glb.length,nodes:json.nodes.length,materials:json.materials.length,collections:catalog.summary.collections,samples:catalog.summary.samples,ar_modes:['webxr','quick-look']}, null, 2));
+console.log(JSON.stringify({status:'ok',model:manifest.glb.file,bytes:glb.length,nodes:json.nodes.length,materials:json.materials.length,collections:catalog.summary.collections,samples:catalog.summary.samples,external_library:'karv-material-library',ar_modes:['webxr','quick-look']}, null, 2));
