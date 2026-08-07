@@ -3,11 +3,21 @@ import crypto from 'node:crypto';
 
 const html = fs.readFileSync(new URL('../app/index.html', import.meta.url), 'utf8');
 const runtime = fs.readFileSync(new URL('../app/configurator.js', import.meta.url), 'utf8');
+const styles = fs.readFileSync(new URL('../app/styles.css', import.meta.url), 'utf8');
 const manifest = JSON.parse(fs.readFileSync(new URL('../base/base.manifest.json', import.meta.url), 'utf8'));
 const catalog = JSON.parse(fs.readFileSync(new URL('../catalog/catalog.json', import.meta.url), 'utf8'));
 const glb = fs.readFileSync(new URL(`../base/${manifest.glb.file}`, import.meta.url));
 
-for (const token of ['ar-modes="webxr quick-look"','ar-placement="floor"','ar-scale="fixed"','slot="ar-button"',`src="../base/${manifest.glb.file}"`]) {
+for (const token of [
+  'ar-modes="webxr quick-look"',
+  'ar-placement="floor"',
+  'ar-scale="fixed"',
+  'slot="ar-button"',
+  `src="../base/${manifest.glb.file}"`,
+  'camera-orbit="35deg 72deg 2.65m"',
+  'id="catalogSummary"',
+  'id="catalogNotice"',
+]) {
   if (!html.includes(token)) throw new Error(`Configuração ausente: ${token}`);
 }
 for (const token of [
@@ -18,8 +28,16 @@ for (const token of [
   'raw.githubusercontent.com/KARV-LP/karv-material-library/main/catalog/fabrics.json',
   'ready_for_configurator',
   'item.texture ?? item.preview',
+  'LIBRARY_TEXTURE_TRANSFORMS',
+  'setScale',
+  'setRotation',
+  'setWrapS',
+  'updateCollectionContext',
 ]) {
   if (!runtime.includes(token)) throw new Error(`Runtime incompleto: ${token}`);
+}
+for (const token of ['.fabric-grid.library-grid', 'repeat(3, minmax(0, 1fr))']) {
+  if (!styles.includes(token)) throw new Error(`Estilo ausente: ${token}`);
 }
 if (catalog.summary.collections !== 6 || catalog.summary.samples !== 24) throw new Error('O catálogo MVP deve conter 6 coleções e 24 tecidos');
 if (catalog.usage.production_ready !== false) throw new Error('O catálogo visual não pode ser marcado como material de produção');
@@ -45,4 +63,15 @@ if (!primitives.every((primitive) => primitive.attributes?.TEXCOORD_0 !== undefi
 if ((json.nodes ?? []).length !== manifest.part_count) throw new Error('Peças divergem do manifesto');
 const sha256 = crypto.createHash('sha256').update(glb).digest('hex');
 if (manifest.glb.sha256 !== sha256 || manifest.glb.size_bytes !== glb.length) throw new Error('Hash ou tamanho diverge do manifesto');
-console.log(JSON.stringify({status:'ok',model:manifest.glb.file,bytes:glb.length,nodes:json.nodes.length,materials:json.materials.length,collections:catalog.summary.collections,samples:catalog.summary.samples,external_library:'karv-material-library',ar_modes:['webxr','quick-look']}, null, 2));
+console.log(JSON.stringify({
+  status: 'ok',
+  model: manifest.glb.file,
+  bytes: glb.length,
+  nodes: json.nodes.length,
+  materials: json.materials.length,
+  collections: catalog.summary.collections,
+  samples: catalog.summary.samples,
+  external_library: 'karv-material-library',
+  texture_calibration: 'per-material',
+  ar_modes: ['webxr', 'quick-look'],
+}, null, 2));
