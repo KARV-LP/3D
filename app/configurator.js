@@ -4,13 +4,29 @@ const selectedFace = document.querySelector('#selectedFace');
 const collectionFilter = document.querySelector('#collectionFilter');
 const fabricGrid = document.querySelector('#fabricGrid');
 const applyAllButton = document.querySelector('#applyAllButton');
+const catalogNotice = document.querySelector('#catalogNotice');
+const catalogSummary = document.querySelector('#catalogSummary');
 
 const LIBRARY_CATALOG_URL = 'https://raw.githubusercontent.com/KARV-LP/karv-material-library/main/catalog/fabrics.json';
+const LIBRARY_COLLECTION_ID = 'karv-material-library';
+const REPEAT_WRAP = 10497;
 const FIXED_MATERIALS = new Set(['pezinhos', 'VIVO']);
 const DISPLAY_NAMES = new Map([
   ['assento', 'Assento'], ['encosto-frt', 'Encosto frontal'], ['encosto lat', 'Encosto lateral'],
   ['encosto traseiro', 'Encosto traseiro'], ['lat ext', 'Lateral externa'], ['lat int', 'Lateral interna'],
   ['lat rr', 'Lateral traseira'], ['Material.012', 'Lateral superior'],
+]);
+
+// Calibração inicial por peça. Os valores serão refinados após validação visual na poltrona oficial.
+const LIBRARY_TEXTURE_TRANSFORMS = new Map([
+  ['assento', { scale: { u: 2.15, v: 2.15 }, rotation: 0 }],
+  ['encosto-frt', { scale: { u: 2.05, v: 2.05 }, rotation: 0 }],
+  ['encosto lat', { scale: { u: 2.3, v: 2.3 }, rotation: Math.PI / 2 }],
+  ['encosto traseiro', { scale: { u: 2.05, v: 2.05 }, rotation: 0 }],
+  ['lat ext', { scale: { u: 2.45, v: 2.45 }, rotation: Math.PI / 2 }],
+  ['lat int', { scale: { u: 2.45, v: 2.45 }, rotation: Math.PI / 2 }],
+  ['lat rr', { scale: { u: 2.25, v: 2.25 }, rotation: 0 }],
+  ['Material.012', { scale: { u: 2.35, v: 2.35 }, rotation: Math.PI / 2 }],
 ]);
 
 let catalog;
@@ -39,19 +55,36 @@ function selectMaterial(material) {
   applyAllButton.disabled = !selectedFabric;
 }
 
-async function textureFor(item) {
+function textureTransformFor(material, item) {
+  if (item.source !== 'karv-material-library') return null;
+  return LIBRARY_TEXTURE_TRANSFORMS.get(material.name) ?? { scale: { u: 2.2, v: 2.2 }, rotation: 0 };
+}
+
+async function textureFor(material, item) {
   const source = item.texture ?? item.preview;
-  if (!textureCache.has(source)) textureCache.set(source, viewer.createTexture(source, 'image/webp'));
-  return textureCache.get(source);
+  const cacheKey = `${item.id ?? source}:${material.name}`;
+  if (!textureCache.has(cacheKey)) {
+    const texture = await viewer.createTexture(source, 'image/webp');
+    const transform = textureTransformFor(material, item);
+    if (transform) {
+      texture.sampler.setWrapS(REPEAT_WRAP);
+      texture.sampler.setWrapT(REPEAT_WRAP);
+      texture.sampler.setScale(transform.scale);
+      texture.sampler.setRotation(transform.rotation);
+      texture.sampler.setOffset({ u: 0, v: 0 });
+    }
+    textureCache.set(cacheKey, texture);
+  }
+  return textureCache.get(cacheKey);
 }
 
 async function applyFabric(material, item) {
-  const texture = await textureFor(item);
+  const texture = await textureFor(material, item);
   const pbr = material.pbrMetallicRoughness;
   pbr.baseColorTexture.setTexture(texture);
   pbr.setBaseColorFactor([1, 1, 1, 1]);
   pbr.setMetallicFactor(0);
-  pbr.setRoughnessFactor(0.92);
+  pbr.setRoughnessFactor(item.source === 'karv-material-library' ? 0.86 : 0.92);
 }
 
 async function chooseFabric(item, button) {
@@ -70,6 +103,17 @@ async function chooseFabric(item, button) {
   }
 }
 
+function updateCollectionContext(collection) {
+  const isLibrary = collection.id === LIBRARY_COLLECTION_ID;
+  fabricGrid.classList.toggle('library-grid', isLibrary);
+  catalogSummary.textContent = isLibrary
+    ? `${collection.items.length} tecidos técnicos disponíveis.`
+    : `${collection.items.length} referências visuais disponíveis.`;
+  catalogNotice.textContent = isLibrary
+    ? 'Teste técnico inicial com albedo e escala calibrada por peça. Normal e AO serão adicionados na etapa PBR.'
+    : 'Referências visuais do MVP. Estes itens ainda não possuem escala física validada nem mapas PBR.';
+}
+
 function renderCollection(collectionId) {
   const collection = catalog.collections.find((entry) => entry.id === collectionId);
   fabricGrid.replaceChildren();
@@ -77,12 +121,13 @@ function renderCollection(collectionId) {
     fabricGrid.textContent = 'Coleção indisponível.';
     return;
   }
+  updateCollectionContext(collection);
   for (const item of collection.items) {
     const button = document.createElement('button');
     button.className = 'fabric-card';
     button.type = 'button';
     button.setAttribute('aria-pressed', 'false');
-    button.innerHTML = `<img src="${item.preview}" alt="" loading="lazy" width="152" height="152" /><span>${item.name}</span>`;
+    button.innerHTML = `<img src="${item.preview}" alt="Amostra do tecido ${item.name}" loading="lazy" width="152" height="152" /><span>${item.name}</span>`;
     button.addEventListener('click', () => chooseFabric(item, button));
     fabricGrid.append(button);
   }
@@ -104,7 +149,7 @@ async function loadLibraryCollection() {
     }));
 
   return {
-    id: 'karv-material-library',
+    id: LIBRARY_COLLECTION_ID,
     name: 'Biblioteca KARV',
     items,
   };
@@ -168,5 +213,7 @@ loadCatalog().catch((error) => {
   console.error(error);
   collectionFilter.replaceChildren(new Option('Catálogo indisponível'));
   fabricGrid.textContent = 'Não foi possível carregar as referências de tecido.';
+  catalogSummary.textContent = 'Catálogo indisponível.';
+  catalogNotice.textContent = 'Recarregue a página ou tente novamente em alguns instantes.';
   setStatus('Falha no catálogo', 'error');
 });
