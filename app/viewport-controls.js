@@ -1,3 +1,5 @@
+import './studio-lighting.js';
+
 await customElements.whenDefined('model-viewer');
 
 const viewer = document.querySelector('#karvViewer');
@@ -14,6 +16,9 @@ const VIEW_PRESETS = {
   back: { label: 'Traseira', orbit: '180deg 72deg 2.65m' },
   left: { label: 'Lateral esquerda', orbit: '-90deg 72deg 2.65m' },
 };
+
+stage.classList.add('grid-hidden');
+gridToggle.setAttribute('aria-pressed', 'false');
 
 function setActiveView(view) {
   const preset = VIEW_PRESETS[view];
