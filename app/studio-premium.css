@@ -1,0 +1,68 @@
+.viewport-stage {
+  background-color: #a9adb1;
+  background-image:
+    linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px),
+    linear-gradient(rgba(56,62,67,.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56,62,67,.055) 1px, transparent 1px),
+    radial-gradient(ellipse at 50% 20%, rgba(255,255,255,.98) 0%, rgba(247,248,249,.74) 24%, rgba(223,226,228,.38) 48%, transparent 69%),
+    linear-gradient(180deg, #d0d3d5 0%, #bfc3c6 43%, #a4a8ac 71%, #8f9498 100%);
+  background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px, auto, auto;
+  background-position: center center;
+}
+
+.viewport-stage::before {
+  display: block;
+  left: 0;
+  right: 0;
+  top: 42%;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background:
+    radial-gradient(ellipse at 50% 88%, rgba(255,255,255,.72) 0%, rgba(225,228,230,.36) 35%, transparent 68%),
+    linear-gradient(180deg, rgba(255,255,255,.10) 0%, rgba(89,95,100,.08) 100%);
+  opacity: 1;
+}
+
+.viewport-stage::after {
+  display: block;
+  left: 18%;
+  right: 18%;
+  top: auto;
+  bottom: 7%;
+  width: auto;
+  height: 18%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(37,42,46,.25) 0%, rgba(49,54,58,.12) 38%, transparent 72%);
+  filter: blur(18px);
+  opacity: .55;
+}
+
+.viewport-stage.grid-hidden {
+  background-image:
+    radial-gradient(ellipse at 50% 20%, rgba(255,255,255,.98) 0%, rgba(247,248,249,.74) 24%, rgba(223,226,228,.38) 48%, transparent 69%),
+    linear-gradient(180deg, #d0d3d5 0%, #bfc3c6 43%, #a4a8ac 71%, #8f9498 100%);
+  background-size: auto, auto;
+}
+
+.viewport-stage.grid-hidden::before,
+.viewport-stage.grid-hidden::after {
+  display: block;
+}
+
+model-viewer {
+  filter: saturate(1.035) contrast(1.025);
+}
+
+.viewport-readout {
+  color: #f5f6f7;
+}
+
+@media (max-width: 900px) {
+  .viewport-stage::after {
+    left: 8%;
+    right: 8%;
+    bottom: 5%;
+  }
+}
