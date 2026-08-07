@@ -10,6 +10,7 @@ const catalogSummary = document.querySelector('#catalogSummary');
 const LIBRARY_CATALOG_URL = 'https://raw.githubusercontent.com/KARV-LP/karv-material-library/main/catalog/fabrics.json';
 const LIBRARY_COLLECTION_ID = 'karv-material-library';
 const REPEAT_WRAP = 10497;
+const HIGHLIGHT_EMISSIVE = [0.11, 0.2, 0.14];
 const FIXED_MATERIALS = new Set(['pezinhos', 'VIVO']);
 const DISPLAY_NAMES = new Map([
   ['assento', 'Assento'], ['encosto-frt', 'Encosto frontal'], ['encosto lat', 'Encosto lateral'],
@@ -32,8 +33,10 @@ const LIBRARY_TEXTURE_TRANSFORMS = new Map([
 let catalog;
 let selectedMaterial;
 let selectedFabric;
+let highlightedMaterial;
 let configurableMaterials = [];
 const textureCache = new Map();
+const originalEmissiveFactors = new WeakMap();
 
 function setStatus(message, state = '') {
   statusPill.textContent = message;
@@ -44,12 +47,46 @@ function materialLabel(material) {
   return DISPLAY_NAMES.get(material?.name) ?? material?.name ?? 'Área não identificada';
 }
 
+function originalEmissiveFactor(material) {
+  if (!originalEmissiveFactors.has(material)) {
+    originalEmissiveFactors.set(material, [...(material.emissiveFactor ?? [0, 0, 0])]);
+  }
+  return originalEmissiveFactors.get(material);
+}
+
+function clearMaterialHighlight(material) {
+  if (!material) return;
+  material.setEmissiveFactor(originalEmissiveFactor(material));
+}
+
+function updateHighlightedMaterial(material) {
+  if (highlightedMaterial === material) return;
+  clearMaterialHighlight(highlightedMaterial);
+  highlightedMaterial = material;
+  if (highlightedMaterial) {
+    originalEmissiveFactor(highlightedMaterial);
+    highlightedMaterial.setEmissiveFactor(HIGHLIGHT_EMISSIVE);
+  }
+}
+
+function centerCameraOnModel() {
+  const center = viewer.getBoundingBoxCenter();
+  const dimensions = viewer.getDimensions();
+  const targetY = center.y - dimensions.y * 0.06;
+  viewer.cameraTarget = `${center.x}m ${targetY}m ${center.z}m`;
+  viewer.jumpCameraToGoal();
+}
+
 function selectMaterial(material) {
   if (!material || FIXED_MATERIALS.has(material.name)) {
+    selectedMaterial = undefined;
+    updateHighlightedMaterial(undefined);
+    selectedFace.textContent = 'Estrutura não configurável';
     setStatus('Área estrutural', 'notice');
     return;
   }
   selectedMaterial = material;
+  updateHighlightedMaterial(material);
   selectedFace.textContent = materialLabel(material);
   setStatus('Área selecionada', 'ready');
   applyAllButton.disabled = !selectedFabric;
@@ -181,6 +218,7 @@ async function loadCatalog() {
 
 viewer.addEventListener('load', () => {
   configurableMaterials = viewer.model.materials.filter((material) => !FIXED_MATERIALS.has(material.name));
+  centerCameraOnModel();
   selectMaterial(configurableMaterials[0]);
   setStatus('3D pronto', 'ready');
 });
