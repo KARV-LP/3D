@@ -32,6 +32,10 @@ npm test
 npm run build
 ```
 
+## Integração em validação
+
+A branch de teste conecta o configurador ao catálogo oficial `KARV-LP/karv-material-library` e preserva o catálogo local como fallback.
+
 ## Limite do catálogo
 
 As 24 imagens são referências visuais para validação de navegação e aplicação no modelo. Não possuem escala física validada, repetição seamless ou mapas PBR e não substituem a futura Biblioteca Técnica KARV.
