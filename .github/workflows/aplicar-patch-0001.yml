@@ -1,0 +1,81 @@
+name: Aplicar patch 0001 e abrir PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch a criar"
+        required: true
+        default: "fix/pezinhos-decimate"
+      patch:
+        description: "Caminho do patch no repo"
+        required: true
+        default: "patches/0001-karv-pezinhos-escala-material.patch"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  aplicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configurar Git
+        run: |
+          git config user.name "karv-bot"
+          git config user.email "comercial.karv.sp@users.noreply.github.com"
+
+      - name: Criar branch
+        run: git switch -c "${{ github.event.inputs.branch }}"
+
+      - name: Aplicar patch (binário incluído)
+        run: |
+          test -f "${{ github.event.inputs.patch }}" || { echo "Patch não encontrado"; exit 1; }
+          git am --keep-cr "${{ github.event.inputs.patch }}"
+
+      - name: Guarda lat-top (remove remendo se existir)
+        run: |
+          if [ -f app/lat-top-texture-calibration.js ]; then
+            git rm app/lat-top-texture-calibration.js
+            sed -i '/lat-top-texture-calibration.js/d' app/index.html
+            git commit -m "chore: remove monkey-patch lat-top (superado pela escala fisica)"
+          fi
+
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci || npm install
+
+      - name: Validar (test + build)
+        run: |
+          npm test
+          npm run build
+
+      - name: Publicar branch
+        run: git push origin "HEAD:refs/heads/${{ github.event.inputs.branch }}"
+
+      - name: Abrir PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BODY="patches/PR_DESCRIPTION.md"
+          if [ -f "$BODY" ]; then
+            gh pr create --base main --head "${{ github.event.inputs.branch }}" \
+              --title "perf(base): decima PEZINHOS <200k, escala de textura fisica e material lat ext" \
+              --body-file "$BODY"
+          else
+            gh pr create --base main --head "${{ github.event.inputs.branch }}" \
+              --title "perf(base): decima PEZINHOS <200k, escala de textura fisica e material lat ext" \
+              --body "Aplica o patch 0001: PEZINHOS decimado (<200k), escala de textura fisicamente derivada, GLB versionado base.v3.0adba33a.glb. Supersede fix/lat-top-texture-scale. npm test e build verdes."
+          fi
