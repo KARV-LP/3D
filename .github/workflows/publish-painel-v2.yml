@@ -69,7 +69,7 @@ jobs:
           test "$(git hash-object app/index.html)" = "6002db305558d26e7b5cbf2414390664dff4f9f7"
           test "$(git hash-object app/styles.css)" = "d84f909ebcc46ea387cc654bba20d1e207c19b67"
           test "$(git hash-object app/viewport.css)" = "69b8e97f471460766a9958d45db51b19d91c066a"
-          test "$(git diff --name-only | wc -l)" -eq 4
+          test "$(git diff HEAD --name-only -- app | wc -l)" -eq 4
       - name: Validate
         shell: bash
         run: |
