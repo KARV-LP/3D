@@ -282,3 +282,10 @@ h1 {
   .fabric-grid { gap: 8px; }
   .fabric-card span { min-height: 60px; font-size: .72rem; }
 }
+
+.attr-filters { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 12px; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 4px; padding: 0 7px 8px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 2px 7px; border-radius: 999px; background: rgba(23,33,30,.08); font-size: .62rem; }
+.chip-dot { width: 7px; height: 7px; border-radius: 50%; }
+.config-summary { margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(23,33,30,.12); }
+.config-row { display: flex; justify-content: space-between; gap: 12px; font-size: .72rem; }
