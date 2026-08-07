@@ -14,7 +14,14 @@ for (const token of [
   'ar-scale="fixed"',
   'slot="ar-button"',
   `src="../base/${manifest.glb.file}"`,
+  'camera-controls',
+  'disable-pan',
+  'camera-target="auto auto auto"',
   'camera-orbit="35deg 72deg 2.65m"',
+  'min-camera-orbit="auto 52deg 2.15m"',
+  'max-camera-orbit="auto 86deg 3.10m"',
+  'min-field-of-view="29deg"',
+  'max-field-of-view="36deg"',
   'id="catalogSummary"',
   'id="catalogNotice"',
 ]) {
@@ -33,6 +40,13 @@ for (const token of [
   'setRotation',
   'setWrapS',
   'updateCollectionContext',
+  'setEmissiveFactor',
+  'emissiveFactor',
+  'updateHighlightedMaterial',
+  'getBoundingBoxCenter',
+  'getDimensions',
+  'jumpCameraToGoal',
+  'centerCameraOnModel',
 ]) {
   if (!runtime.includes(token)) throw new Error(`Runtime incompleto: ${token}`);
 }
@@ -73,5 +87,7 @@ console.log(JSON.stringify({
   samples: catalog.summary.samples,
   external_library: 'karv-material-library',
   texture_calibration: 'per-material',
+  camera_controls: 'bounded-centered-no-under-view',
+  selection_highlight: 'emissive-restorable',
   ar_modes: ['webxr', 'quick-look'],
 }, null, 2));
