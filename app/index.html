@@ -57,6 +57,7 @@
 
             <div class="viewer-footer">
               <div><span class="label">Área selecionada</span><strong id="selectedFace">Aguardando o modelo</strong></div>
+              <button id="applyPieceButton" class="secondary-button ghost" type="button" disabled>Aplicar na peça</button>
               <button id="applyAllButton" class="secondary-button" type="button" disabled>Aplicar em todas</button>
             </div>
           </div>
@@ -72,7 +73,9 @@
             <label class="filter-label" for="collectionFilter">Coleção</label>
             <select id="collectionFilter" class="collection-filter" disabled><option>Carregando catálogo</option></select>
             <div id="catalogNotice" class="catalog-notice" role="note">Preparando as informações da coleção.</div>
+            <div id="attributeFilters" class="attr-filters" hidden></div>
             <div id="fabricGrid" class="fabric-grid" aria-live="polite"></div>
+            <div id="configSummary" class="config-summary"></div>
           </div>
         </aside>
       </section>
