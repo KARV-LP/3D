@@ -10,9 +10,23 @@
   min-height: 0;
 }
 
+.ar-button {
+  top: 56px;
+  right: 18px;
+  bottom: auto;
+  z-index: 9;
+}
+
 @media (max-width: 900px) {
   .viewport-shell {
     height: 64dvh;
     min-height: 420px;
+  }
+}
+
+@media (max-width: 560px) {
+  .ar-button {
+    top: 54px;
+    right: 12px;
   }
 }
