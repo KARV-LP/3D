@@ -1,0 +1,172 @@
+{
+  "schema": "karv.base.manifest/1",
+  "geometry_version": 2,
+  "generated_at": "2026-08-08T12:36:57-03:00",
+  "blend_file": "KV_3D_CLAUDE.canonico.blend",
+  "source_collection": "Scene Collection",
+  "uv_set": "UVMap",
+  "part_count": 11,
+  "parts": [
+    {
+      "canonical": "ASSENTO",
+      "object": "ASSENTO",
+      "materials": [
+        "assento"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 3656,
+      "faces": 6692
+    },
+    {
+      "canonical": "ENCOSTO_FRONTAL",
+      "object": "ENCOSTO_FRONTAL",
+      "materials": [
+        "encosto-frt"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 2016,
+      "faces": 3508
+    },
+    {
+      "canonical": "ENCOSTO_LATERAL",
+      "object": "ENCOSTO_LATERAL",
+      "materials": [
+        "encosto lat"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 1978,
+      "faces": 3802
+    },
+    {
+      "canonical": "ENCOSTO_TRASEIRO",
+      "object": "ENCOSTO_TRASEIRO",
+      "materials": [
+        "encosto traseiro"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 3636,
+      "faces": 6716
+    },
+    {
+      "canonical": "LATERAL_EXTERNA",
+      "object": "LATERAL_EXTERNA",
+      "materials": [
+        "lat ext "
+      ],
+      "uv_map": "UVMap",
+      "vertices": 21320,
+      "faces": 41900
+    },
+    {
+      "canonical": "LATERAL_INTERNA",
+      "object": "LATERAL_INTERNA",
+      "materials": [
+        "lat int"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 21756,
+      "faces": 42684
+    },
+    {
+      "canonical": "LATERAL_REAR",
+      "object": "LATERAL_REAR",
+      "materials": [
+        "lat rr"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 1632,
+      "faces": 2810
+    },
+    {
+      "canonical": "LATERAL_TOP",
+      "object": "LATERAL_TOP",
+      "materials": [
+        "Material.012"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 8710,
+      "faces": 16592
+    },
+    {
+      "canonical": "PEZINHOS",
+      "object": "PEZINHOS",
+      "materials": [
+        "pezinhos"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 74430,
+      "faces": 113790
+    },
+    {
+      "canonical": "VIVO_ASSENTO",
+      "object": "VIVO_ASSENTO",
+      "materials": [
+        "VIVO"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 1262,
+      "faces": 2304
+    },
+    {
+      "canonical": "VIVO_ENCOSTO",
+      "object": "VIVO_ENCOSTO",
+      "materials": [
+        "VIVO"
+      ],
+      "uv_map": "UVMap",
+      "vertices": 2354,
+      "faces": 4320
+    }
+  ],
+  "geometry_hash": "sha256:6182726da1871f17c88fb8d48c3a51aa5c36d883453f333adc049dba2c62fa0e",
+  "glb": {
+    "file": "base.v4.878a8b89.glb",
+    "status": "ok",
+    "exported_at": "2026-08-08T12:36:57-03:00",
+    "included_parts": [
+      "ASSENTO",
+      "ENCOSTO_FRONTAL",
+      "ENCOSTO_LATERAL",
+      "ENCOSTO_TRASEIRO",
+      "LATERAL_EXTERNA",
+      "LATERAL_INTERNA",
+      "LATERAL_REAR",
+      "LATERAL_TOP",
+      "PEZINHOS",
+      "VIVO_ASSENTO",
+      "VIVO_ENCOSTO"
+    ],
+    "excluded_parts": [],
+    "over_cap_parts": [],
+    "tri_cap": 200000,
+    "size_kb": 632.1,
+    "sha256": "878a8b89aa330da1dc7a4be00a5de6c0321ab1273c90c414ed1f22fc851df1bf",
+    "size_bytes": 647280,
+    "extensions_required": [
+      "KHR_draco_mesh_compression"
+    ],
+    "note": "Simetria dos bracos corrigida (laterais separadas + espelho). Draco. Stats de otimizacao do PEZINHOS a preencher pelo pipeline se necessario."
+  },
+  "uv_templates": {
+    "resolution": 4096,
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "path": "uv-templates/",
+    "status": "pending"
+  },
+  "designer_kit": {
+    "version": 1,
+    "layers": [
+      "uv_layout",
+      "safe_area",
+      "bleed",
+      "center_line",
+      "registration_marks"
+    ],
+    "margins_unit": "percent",
+    "path": "designer-kit/",
+    "status": "pending"
+  }
+}
