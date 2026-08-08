@@ -1,8 +1,8 @@
 {
   "schema": "karv.base.manifest/1",
   "geometry_version": 1,
-  "generated_at": "2026-08-02T10:48:28-03:00",
-  "blend_file": "KV_3D_CLAUDE.blend",
+  "generated_at": "2026-08-08T07:40:54-03:00",
+  "blend_file": "KV_3D_CLAUDE.canonico.blend",
   "source_collection": "Scene Collection",
   "uv_set": "UVMap",
   "part_count": 11,
@@ -15,7 +15,7 @@
       ],
       "uv_map": "UVMap",
       "vertices": 3656,
-      "faces": 4578
+      "faces": 6692
     },
     {
       "canonical": "ENCOSTO_FRONTAL",
@@ -25,7 +25,7 @@
       ],
       "uv_map": "UVMap",
       "vertices": 2016,
-      "faces": 2879
+      "faces": 3508
     },
     {
       "canonical": "ENCOSTO_LATERAL",
@@ -35,7 +35,7 @@
       ],
       "uv_map": "UVMap",
       "vertices": 1978,
-      "faces": 1978
+      "faces": 3802
     },
     {
       "canonical": "ENCOSTO_TRASEIRO",
@@ -45,7 +45,7 @@
       ],
       "uv_map": "UVMap",
       "vertices": 3636,
-      "faces": 4417
+      "faces": 6716
     },
     {
       "canonical": "LATERAL_EXTERNA",
@@ -54,8 +54,8 @@
         "lat ext "
       ],
       "uv_map": "UVMap",
-      "vertices": 21322,
-      "faces": 20952
+      "vertices": 21320,
+      "faces": 41900
     },
     {
       "canonical": "LATERAL_INTERNA",
@@ -64,8 +64,8 @@
         "lat int"
       ],
       "uv_map": "UVMap",
-      "vertices": 21758,
-      "faces": 21344
+      "vertices": 21756,
+      "faces": 42684
     },
     {
       "canonical": "LATERAL_REAR",
@@ -74,8 +74,8 @@
         "lat rr"
       ],
       "uv_map": "UVMap",
-      "vertices": 1534,
-      "faces": 1440
+      "vertices": 1630,
+      "faces": 2810
     },
     {
       "canonical": "LATERAL_TOP",
@@ -84,8 +84,8 @@
         "Material.012"
       ],
       "uv_map": "UVMap",
-      "vertices": 8698,
-      "faces": 8378
+      "vertices": 8710,
+      "faces": 16592
     },
     {
       "canonical": "PEZINHOS",
@@ -94,8 +94,8 @@
         "pezinhos"
       ],
       "uv_map": "UVMap",
-      "vertices": 148134,
-      "faces": 271962
+      "vertices": 77806,
+      "faces": 119780
     },
     {
       "canonical": "VIVO_ASSENTO",
@@ -104,8 +104,8 @@
         "VIVO"
       ],
       "uv_map": "UVMap",
-      "vertices": 1164,
-      "faces": 1164
+      "vertices": 1262,
+      "faces": 2304
     },
     {
       "canonical": "VIVO_ENCOSTO",
@@ -114,46 +114,34 @@
         "VIVO"
       ],
       "uv_map": "UVMap",
-      "vertices": 2172,
-      "faces": 2172
+      "vertices": 2354,
+      "faces": 4320
     }
   ],
-  "geometry_hash": "sha256:279bd576ecfa4eee95a4172ceb664b4a4e5e9a2812267d1add00069b17b470fd",
+  "geometry_hash": "sha256:037f385078270b2dbd329695503fa28b776394a750de43198468603498f37bbe",
   "glb": {
-    "file": "base.v3.0adba33a.glb",
+    "file": "base.v4.2bdebd66.glb",
     "status": "ok",
-    "exported_at": "2026-08-07T00:00:00-03:00",
+    "exported_at": "2026-08-08T07:41:18-03:00",
     "included_parts": [
-      "PEZINHOS",
-      "LATERAL_TOP",
-      "LATERAL_REAR",
-      "LATERAL_INTERNA",
-      "LATERAL_EXTERNA",
-      "ENCOSTO_TRASEIRO",
-      "ENCOSTO_LATERAL",
-      "ENCOSTO_FRONTAL",
       "ASSENTO",
-      "VIVO_ENCOSTO",
-      "VIVO_ASSENTO"
+      "ENCOSTO_FRONTAL",
+      "ENCOSTO_LATERAL",
+      "ENCOSTO_TRASEIRO",
+      "LATERAL_EXTERNA",
+      "LATERAL_INTERNA",
+      "LATERAL_REAR",
+      "LATERAL_TOP",
+      "PEZINHOS",
+      "VIVO_ASSENTO",
+      "VIVO_ENCOSTO"
     ],
     "excluded_parts": [],
     "over_cap_parts": [],
     "tri_cap": 200000,
-    "size_kb": 704.8,
-    "sha256": "0adba33a773fcad161fa6c3cf5f5b07aaf792606966daad6045d5020c8345f74",
-    "size_bytes": 721744,
-    "extensions_required": [
-      "KHR_draco_mesh_compression"
-    ],
-    "pezinhos_tris_delivered": 119780,
-    "optimization": {
-      "part": "PEZINHOS",
-      "tris_before": 206967,
-      "tris_after": 119780,
-      "method": "meshopt-simplify(LockBorder)+draco",
-      "error": 0.0,
-      "note": "Somente PEZINHOS decimado. Estofado preservado; faces degeneradas removidas pelo Draco. UV0 mantido."
-    }
+    "size_kb": 621.2,
+    "sha256": "2bdebd666cef662a575e306ef540d43bd5c61830d3b86ef2cd77777bcac7b5d6",
+    "size_bytes": 636068
   },
   "uv_templates": {
     "resolution": 4096,
@@ -176,44 +164,5 @@
     "margins_unit": "percent",
     "path": "designer-kit/",
     "status": "pending"
-  },
-  "bake": {
-    "engine": "CYCLES",
-    "device": "OPTIX",
-    "resolution": 2048,
-    "samples": 128,
-    "margin_px": 16,
-    "high_poly_used": false,
-    "world": "temp_white_strength_1.0",
-    "ao_fabric_disconnected": true,
-    "maps": {
-      "all_parts": [
-        "AO"
-      ],
-      "PEZINHOS": [
-        "AO",
-        "COLOR",
-        "ROUGHNESS"
-      ]
-    },
-    "path": "bake/",
-    "files": [
-      "ASSENTO_AO.png",
-      "ENCOSTO_FRONTAL_AO.png",
-      "ENCOSTO_LATERAL_AO.png",
-      "ENCOSTO_TRASEIRO_AO.png",
-      "LATERAL_EXTERNA_AO.png",
-      "LATERAL_INTERNA_AO.png",
-      "LATERAL_REAR_AO.png",
-      "LATERAL_TOP_AO.png",
-      "PEZINHOS_AO.png",
-      "PEZINHOS_COLOR.png",
-      "PEZINHOS_ROUGHNESS.png",
-      "VIVO_ASSENTO_AO.png",
-      "VIVO_ENCOSTO_AO.png"
-    ],
-    "status": "ok",
-    "errors": [],
-    "baked_at": "2026-08-02T11:04:30-03:00"
   }
 }
