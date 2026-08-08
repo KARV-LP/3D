@@ -8,7 +8,7 @@ fs.copyFileSync(new URL('../index.html', import.meta.url), new URL('index.html',
 fs.cpSync(new URL('../app/', import.meta.url), new URL('app/', output), { recursive: true });
 fs.cpSync(new URL('../catalog/', import.meta.url), new URL('catalog/', output), { recursive: true });
 fs.mkdirSync(new URL('base/', output), { recursive: true });
-fs.copyFileSync(new URL('../base/base.v3.0adba33a.glb', import.meta.url), new URL('base/base.v3.0adba33a.glb', output));
+fs.copyFileSync(new URL('../base/base.v4.878a8b89.glb', import.meta.url), new URL('base/base.v4.878a8b89.glb', output));
 fs.copyFileSync(new URL('../base/base.manifest.json', import.meta.url), new URL('base/base.manifest.json', output));
 
 console.log('Static KARV 3D MVP created in dist/');
