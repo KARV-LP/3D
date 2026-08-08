@@ -28,15 +28,22 @@ const FAMILY_DOT = new Map([
 
 // Calibração inicial por peça. Os valores serão refinados após validação visual na poltrona oficial.
 // Escala fisicamente derivada: 1 tile = 120x60 cm (physical_reference_cm).
+// base.v4 — UV de densidade UNIFORME (unwrap âncora=ASSENTO). Escala GLOBAL única
+// aprovada visualmente no Blender (tecido Toledo, tile 2:1) e transferida direto:
+// Mapping.Scale (Blender) e setScale (model-viewer) multiplicam a UV do mesmo modo.
+//   scale { u: 2.5, v: 0.86 } em TODAS as peças; rotação só no ASSENTO (π/2). Wrap: repeat.
+// Supersede a antiga tabela anisotrópica por peça (P0.2). Ver KARV_Textura_Report.
+// QA web: se o ASSENTO sair espelhado, trocar rotation p/ -Math.PI/2; se a trama sair
+// invertida (grande<->pequena), usar o inverso { u: 0.4, v: 1.163 }.
 const LIBRARY_TEXTURE_TRANSFORMS = new Map([
-  ['assento', { scale: { u: 0.937, v: 0.937 }, rotation: 0 }],
-  ['encosto-frt', { scale: { u: 0.690, v: 0.690 }, rotation: 0 }],
-  ['encosto lat', { scale: { u: 0.536, v: 0.536 }, rotation: Math.PI / 2 }],
-  ['encosto traseiro', { scale: { u: 0.961, v: 0.961 }, rotation: 0 }],
-  ['lat ext', { scale: { u: 1.059, v: 1.059 }, rotation: Math.PI / 2 }],
-  ['lat int', { scale: { u: 0.860, v: 0.860 }, rotation: Math.PI / 2 }],
-  ['lat rr', { scale: { u: 0.305, v: 0.305 }, rotation: 0 }],
-  ['Material.012', { scale: { u: 1.608, v: 1.608 }, rotation: Math.PI / 2 }],
+  ['assento', { scale: { u: 2.5, v: 0.86 }, rotation: Math.PI / 2 }],
+  ['encosto-frt', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
+  ['encosto lat', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
+  ['encosto traseiro', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
+  ['lat ext', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
+  ['lat int', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
+  ['lat rr', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
+  ['Material.012', { scale: { u: 2.5, v: 0.86 }, rotation: 0 }],
 ]);
 
 let catalog;
