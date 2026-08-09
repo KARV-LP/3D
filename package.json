@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "test": "node tests/validate-mvp.mjs",
+    "guard": "node scripts/guard-forbidden.mjs",
     "build": "node scripts/build-static.mjs"
   },
   "devDependencies": {
