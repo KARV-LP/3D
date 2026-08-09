@@ -23,6 +23,8 @@ jobs:
           cache: npm
       - name: Instalar dependências
         run: npm ci
+      - name: Guard de nomes proibidos (fornecedor)
+        run: npm run guard
       - name: Validar modelo, catálogo e runtime
         run: npm test
       - name: Gerar build estático
