@@ -1,41 +1,51 @@
-# KARV 3D
+# KARV 3D — MVP histórico
 
-MVP unificado do Configurador 3D KARV.
+> **Status: referência histórica / regressão.**
+>
+> Este repositório não é mais a fonte canônica do Configurador 3D KARV. Novas funcionalidades, correções funcionais, UI, contratos, materiais runtime e RA devem ser desenvolvidos em **`KARV-LP/configurador-3d`**.
 
-## Propósito
+## Papel atual
 
-O repositório mantém somente o necessário para validar o produto:
+Este repositório é preservado para:
 
-1. carregar a poltrona oficial;
-2. selecionar uma área estofada diretamente no 3D;
-3. aplicar uma referência visual de tecido;
-4. aplicar o mesmo tecido a todas as áreas;
-5. abrir a configuração em realidade aumentada;
-6. validar modelo, catálogo e build por CI.
+- histórico técnico;
+- referência de regressão;
+- registro dos experimentos que validaram o produto;
+- consulta ao MVP que antecedeu a arquitetura canônica.
 
-## Estrutura
+Ele **não deve receber desenvolvimento funcional paralelo** ao configurador canônico.
+
+O histórico não será apagado. Correções necessárias apenas para manter a referência acessível ou documentar comportamento legado podem ser feitas quando explicitamente autorizadas.
+
+## Contexto do MVP
+
+O MVP unificado validou inicialmente:
+
+1. carregamento da poltrona oficial;
+2. seleção de área estofada diretamente no 3D;
+3. aplicação de referência visual de tecido;
+4. aplicação do mesmo tecido a todas as áreas;
+5. abertura da configuração em realidade aumentada;
+6. validação estrutural de modelo, catálogo e build por CI.
+
+## Estrutura histórica
 
 ```text
-app/        interface, configurador e AR
+app/        interface, configurador e AR do MVP
 base/       GLB oficial versionado e manifesto
-catalog/    6 coleções e 24 referências visuais
+catalog/    referências visuais usadas na validação inicial
 tests/      validação estrutural do MVP
 scripts/    build estático
 ```
 
-## Desenvolvimento
+## Limite do catálogo legado
 
-```bash
-npm ci
-npm run dev
-npm test
-npm run build
-```
+As imagens do catálogo local foram referências visuais para validação de navegação e aplicação no modelo. Elas não representam a Biblioteca Técnica KARV canônica nem substituem materiais PBR publicados.
 
-## Integração em validação
+A Biblioteca pública atual é mantida separadamente em `KARV-LP/karv-material-library` e consumida pela aplicação canônica `KARV-LP/configurador-3d`.
 
-A branch de teste conecta o configurador ao catálogo oficial `KARV-LP/karv-material-library` e preserva o catálogo local como fallback.
+## Desenvolvimento atual
 
-## Limite do catálogo
+Para qualquer trabalho novo no Configurador 3D KARV, use:
 
-As 24 imagens são referências visuais para validação de navegação e aplicação no modelo. Não possuem escala física validada, repetição seamless ou mapas PBR e não substituem a futura Biblioteca Técnica KARV.
+`KARV-LP/configurador-3d`
